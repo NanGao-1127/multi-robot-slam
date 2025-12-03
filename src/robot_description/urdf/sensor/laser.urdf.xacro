@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+    <xacro:include filename="$(find robot_description)/urdf/common_inertial.xacro"/>
+    
+    <xacro:macro name="laser_xacro" params="prefix:='' xyz">
+        <link name="${prefix}laser_cylinder_link">
+            <visual>
+                <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+                <geometry>
+                    <cylinder radius="0.01" length="0.08"/>
+                </geometry>
+                <material name="${prefix}laser_black">
+                    <color rgba="0.1 0.1 0.1 1.0"/>
+                </material>
+            </visual>
+            <collision>
+                <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+                <geometry>
+                    <cylinder radius="0.01" length="0.08"/>
+                </geometry>
+            </collision>
+            <xacro:cylinder_inertia m="0.02" r="0.01" h="0.08"/>
+        </link>
+        
+        <link name="${prefix}laser_link">
+            <visual>
+                <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+                <geometry>
+                    <cylinder radius="0.025" length="0.025"/>
+                </geometry>
+                <material name="${prefix}laser_red">
+                    <color rgba="0.8 0.0 0.0 1.0"/>
+                </material>
+            </visual>
+            <collision>
+                <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+                <geometry>
+                    <cylinder radius="0.025" length="0.025"/>
+                </geometry>
+            </collision>
+            <xacro:cylinder_inertia m="0.05" r="0.025" h="0.025"/>
+        </link>
+        
+        <joint name="${prefix}laser_joint" type="fixed">
+            <parent link="${prefix}laser_cylinder_link"/>
+            <child link="${prefix}laser_link"/>
+            <origin xyz="0.0 0.0 0.05" rpy="0.0 0.0 0.0"/>
+        </joint>
+        
+        <joint name="${prefix}laser_cylinder_joint" type="fixed">
+            <parent link="${prefix}base_link"/>
+            <child link="${prefix}laser_cylinder_link"/>
+            <origin xyz="${xyz}" rpy="0.0 0.0 0.0"/>
+        </joint>
+        
+        <gazebo reference="${prefix}laser_cylinder_link">
+            <material>Gazebo/Black</material>
+        </gazebo>
+        <gazebo reference="${prefix}laser_link">
+            <material>Gazebo/Red</material>
+        </gazebo>
+    </xacro:macro>
+</robot>

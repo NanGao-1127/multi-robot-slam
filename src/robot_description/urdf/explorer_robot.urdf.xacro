@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="explorer_robot">
+    
+    <!-- Arguments for multi-robot support -->
+    <xacro:arg name="robot_name" default="robot1"/>
+    <xacro:arg name="robot_namespace" default="/robot1"/>
+    
+    <xacro:property name="robot_name" value="$(arg robot_name)"/>
+    <xacro:property name="robot_namespace" value="$(arg robot_namespace)"/>
+    <xacro:property name="prefix" value="${robot_name}/"/>
+    
+    <!-- Include all component xacros -->
+    <xacro:include filename="$(find robot_description)/urdf/base.urdf.xacro"/>
+    <xacro:include filename="$(find robot_description)/urdf/actuator/wheel.urdf.xacro"/>
+    <xacro:include filename="$(find robot_description)/urdf/actuator/caster.urdf.xacro"/>
+    <xacro:include filename="$(find robot_description)/urdf/sensor/imu.urdf.xacro"/>
+    <xacro:include filename="$(find robot_description)/urdf/sensor/laser.urdf.xacro"/>
+    <xacro:include filename="$(find robot_description)/urdf/sensor/uwb.urdf.xacro"/>
+    <xacro:include filename="$(find robot_description)/urdf/plugins/gazebo_sensor_plugin.xacro"/>
+    <xacro:include filename="$(find robot_description)/urdf/plugins/gazebo_control_plugin.xacro"/>
+    
+    <!-- Robot Base (cylinder body) -->
+    <xacro:base_xacro prefix="${prefix}" length="0.12" radius="0.10"/>
+    
+    <!-- Drive Wheels -->
+    <xacro:wheel_xacro prefix="${prefix}" wheel_name="left_wheel" xyz="0 0.10 -0.06"/>
+    <xacro:wheel_xacro prefix="${prefix}" wheel_name="right_wheel" xyz="0 -0.10 -0.06"/>
+    
+    <!-- Caster Wheels -->
+    <xacro:caster_xacro prefix="${prefix}" caster_name="front_caster" xyz="0.08 0.0 -0.076"/>
+    <xacro:caster_xacro prefix="${prefix}" caster_name="back_caster" xyz="-0.08 0.0 -0.076"/>
+    
+    <!-- Sensors -->
+    <xacro:imu_xacro prefix="${prefix}" xyz="0.0 0.0 0.02"/>
+    <xacro:laser_xacro prefix="${prefix}" xyz="0.0 0.0 0.08"/>
+    
+    <!-- UWB Sensors - Two sensors for redundancy and better positioning -->
+    <xacro:uwb_xacro prefix="${prefix}" uwb_name="uwb_front" xyz="0.08 0.0 0.065"/>
+    <xacro:uwb_xacro prefix="${prefix}" uwb_name="uwb_back" xyz="-0.08 0.0 0.065"/>
+    
+    <!-- Gazebo Plugins -->
+    <xacro:gazebo_sensor_plugin prefix="${prefix}" robot_namespace="${robot_namespace}"/>
+    <xacro:gazebo_control_plugin prefix="${prefix}" robot_namespace="${robot_namespace}"/>
+    
+</robot>
