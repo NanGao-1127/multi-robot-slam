@@ -1,0 +1,7 @@
+{
+  "package_name": "uwb_simulation",
+  "non_idl_tuples": [
+    "/home/nangao/multi_explore/multi-robot-slam/src/uwb_simulation:msg/UwbRange.msg",
+    "/home/nangao/multi_explore/multi-robot-slam/src/uwb_simulation:msg/UwbRangeArray.msg"
+  ]
+}

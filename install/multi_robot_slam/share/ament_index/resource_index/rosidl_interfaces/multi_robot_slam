@@ -1,0 +1,8 @@
+msg/MapMergeStatus.idl
+msg/MapMergeStatus.msg
+msg/PoseGraph.idl
+msg/PoseGraph.msg
+msg/PoseGraphEdge.idl
+msg/PoseGraphEdge.msg
+msg/PoseGraphNode.idl
+msg/PoseGraphNode.msg

@@ -1,0 +1,45 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from uwb_simulation/msg/UwbRange.msg
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Time.idl"
+#include "std_msgs/msg/Header.idl"
+
+module uwb_simulation {
+  module msg {
+    @verbatim (language="comment", text=
+      "UWB Range measurement message" "\n"
+      "Based on the paper: Inter-Robot Range Measurements in Pose Graph Optimization")
+    struct UwbRange {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "Source robot ID (the robot making the measurement)")
+      string source_robot_id;
+
+      @verbatim (language="comment", text=
+        "Target robot ID (the robot being measured to)")
+      string target_robot_id;
+
+      @verbatim (language="comment", text=
+        "Measured range in meters")
+      double range;
+
+      @verbatim (language="comment", text=
+        "Standard deviation of the measurement (typically ~0.02m for DWM1001)")
+      double range_std;
+
+      @verbatim (language="comment", text=
+        "Measurement timestamp (when the ranging was performed)")
+      builtin_interfaces::msg::Time measurement_time;
+
+      @verbatim (language="comment", text=
+        "Quality indicator (0-100, higher is better)")
+      uint8 quality;
+
+      @verbatim (language="comment", text=
+        "Whether this measurement is valid")
+      boolean is_valid;
+    };
+  };
+};

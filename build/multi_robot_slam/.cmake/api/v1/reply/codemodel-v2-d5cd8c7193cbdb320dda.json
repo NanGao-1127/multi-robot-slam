@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-e47190f519fc8331e680.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "multi_robot_slam__py",
+					"jsonFile" : "directory-multi_robot_slam__py-955fa12d94d254928c67.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/nangao/multi_explore/multi-robot-slam/build/multi_robot_slam/multi_robot_slam__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "multi_robot_slam",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_multi_robot_slam_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_multi_robot_slam_egg-2391116823f51d878bf5.json",
+					"name" : "ament_cmake_python_build_multi_robot_slam_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_multi_robot_slam::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_multi_robot_slam-86a5aefe2336cc3c7988.json",
+					"name" : "ament_cmake_python_copy_multi_robot_slam",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "multi_robot_slam::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-multi_robot_slam-1bc0a49a8c8d12334ef8.json",
+					"name" : "multi_robot_slam",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "multi_robot_slam__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-multi_robot_slam__cpp-697eebce21c184804a53.json",
+					"name" : "multi_robot_slam__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "multi_robot_slam__py::@2dd82f4aece55a38fa36",
+					"jsonFile" : "target-multi_robot_slam__py-83aa9af1b31be4a5c5ed.json",
+					"name" : "multi_robot_slam__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "multi_robot_slam__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-multi_robot_slam__rosidl_generator_c-fdcf0438f28d7b28b3dc.json",
+					"name" : "multi_robot_slam__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "multi_robot_slam__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-multi_robot_slam__rosidl_generator_py-660e82bc83b9dc8fd2b2.json",
+					"name" : "multi_robot_slam__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "multi_robot_slam__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-multi_robot_slam__rosidl_typesupport_c-0aef2477ca616bc3c067.json",
+					"name" : "multi_robot_slam__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "multi_robot_slam__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-multi_robot_slam__rosidl_typesupport_c__pyext-36d83a871f98614ff484.json",
+					"name" : "multi_robot_slam__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "multi_robot_slam__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-multi_robot_slam__rosidl_typesupport_cpp-44f98df1b8e97fc506b0.json",
+					"name" : "multi_robot_slam__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "multi_robot_slam__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-multi_robot_slam__rosidl_typesupport_fastrtps_c-fbe391a3c9f3f72dfd58.json",
+					"name" : "multi_robot_slam__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "multi_robot_slam__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-multi_robot_slam__rosidl_typesupport_fastrtps_c__pyext-fae6981e4a3a50f0cce9.json",
+					"name" : "multi_robot_slam__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "multi_robot_slam__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-multi_robot_slam__rosidl_typesupport_fastrtps_cpp-3cdece54cfa91bb84b24.json",
+					"name" : "multi_robot_slam__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "multi_robot_slam__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-multi_robot_slam__rosidl_typesupport_introspection_c-a29c14d25db44cd99dc0.json",
+					"name" : "multi_robot_slam__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "multi_robot_slam__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-multi_robot_slam__rosidl_typesupport_introspection_c__pyext-41a94f1c6bb5565dd443.json",
+					"name" : "multi_robot_slam__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "multi_robot_slam__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-multi_robot_slam__rosidl_typesupport_introspection_cpp-3b4e4e5073ebc5a3f73e.json",
+					"name" : "multi_robot_slam__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "multi_robot_slam_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-multi_robot_slam_uninstall-cceadda6ad7eeb853ca8.json",
+					"name" : "multi_robot_slam_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-2736d9993b375279145f.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/nangao/multi_explore/multi-robot-slam/build/multi_robot_slam",
+		"source" : "/home/nangao/multi_explore/multi-robot-slam/src/multi_robot_slam"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

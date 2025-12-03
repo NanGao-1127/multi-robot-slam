@@ -1,0 +1,266 @@
+[0.043s] Invoking command in '/home/nangao/multi_explore/multi-robot-slam/build/uwb_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/nangao/multi_explore/multi-robot-slam/src/uwb_simulation -DCMAKE_INSTALL_PREFIX=/home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation
+[0.152s] -- The C compiler identification is GNU 11.4.0
+[0.247s] -- The CXX compiler identification is GNU 11.4.0
+[0.259s] -- Detecting C compiler ABI info
+[0.389s] -- Detecting C compiler ABI info - done
+[0.401s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.402s] -- Detecting C compile features
+[0.403s] -- Detecting C compile features - done
+[0.407s] -- Detecting CXX compiler ABI info
+[0.557s] -- Detecting CXX compiler ABI info - done
+[0.561s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.562s] -- Detecting CXX compile features
+[0.562s] -- Detecting CXX compile features - done
+[0.567s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.775s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.900s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.903s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.906s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.948s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.984s] -- Found std_msgs: 4.9.0 (/opt/ros/humble/share/std_msgs/cmake)
+[1.013s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.438s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.782s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.119s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.141s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.143s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.166s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.167s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.167s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.167s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.187s] -- Found PythonExtra: .so  
+[2.243s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.263s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.264s] -- Added test 'lint_cmake' to check CMake code style
+[2.264s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.265s] -- Added test 'xmllint' to check XML markup files
+[2.268s] -- Configuring done
+[2.313s] -- Generating done
+[2.331s] -- Build files have been written to: /home/nangao/multi_explore/multi-robot-slam/build/uwb_simulation
+[2.341s] Invoked command in '/home/nangao/multi_explore/multi-robot-slam/build/uwb_simulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/nangao/multi_explore/multi-robot-slam/src/uwb_simulation -DCMAKE_INSTALL_PREFIX=/home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation
+[2.342s] Invoking command in '/home/nangao/multi_explore/multi-robot-slam/build/uwb_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nangao/multi_explore/multi-robot-slam/build/uwb_simulation -- -j8 -l8
+[2.389s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.401s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.423s] [  5%] Built target ament_cmake_python_copy_uwb_simulation
+[2.732s] running egg_info
+[2.733s] creating uwb_simulation.egg-info
+[2.733s] writing uwb_simulation.egg-info/PKG-INFO
+[2.733s] writing dependency_links to uwb_simulation.egg-info/dependency_links.txt
+[2.734s] writing top-level names to uwb_simulation.egg-info/top_level.txt
+[2.734s] writing manifest file 'uwb_simulation.egg-info/SOURCES.txt'
+[2.736s] reading manifest file 'uwb_simulation.egg-info/SOURCES.txt'
+[2.736s] writing manifest file 'uwb_simulation.egg-info/SOURCES.txt'
+[2.768s] [  5%] Built target ament_cmake_python_build_uwb_simulation_egg
+[2.810s] [  7%] [32mBuilding C object CMakeFiles/uwb_simulation__rosidl_generator_c.dir/rosidl_generator_c/uwb_simulation/msg/detail/uwb_range_array__functions.c.o[0m
+[2.812s] [ 10%] [32mBuilding C object CMakeFiles/uwb_simulation__rosidl_generator_c.dir/rosidl_generator_c/uwb_simulation/msg/detail/uwb_range__functions.c.o[0m
+[2.855s] [ 10%] Built target uwb_simulation__cpp
+[2.872s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.873s] [ 15%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.879s] [ 20%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.880s] [ 20%] [32m[1mLinking C shared library libuwb_simulation__rosidl_generator_c.so[0m
+[2.940s] [ 20%] Built target uwb_simulation__rosidl_generator_c
+[2.959s] [ 23%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.963s] [ 28%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.963s] [ 28%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.273s] [ 30%] [32mBuilding CXX object CMakeFiles/uwb_simulation__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/uwb_simulation/msg/uwb_range__type_support.cpp.o[0m
+[3.273s] [ 33%] [32mBuilding CXX object CMakeFiles/uwb_simulation__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/uwb_simulation/msg/uwb_range_array__type_support.cpp.o[0m
+[3.450s] [ 35%] [32mBuilding CXX object CMakeFiles/uwb_simulation__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/uwb_simulation/msg/detail/uwb_range_array__type_support.cpp.o[0m
+[3.454s] [ 38%] [32mBuilding CXX object CMakeFiles/uwb_simulation__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/uwb_simulation/msg/detail/uwb_range__type_support.cpp.o[0m
+[3.531s] [ 41%] [32mBuilding CXX object CMakeFiles/uwb_simulation__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/uwb_simulation/msg/detail/dds_fastrtps/uwb_range__type_support.cpp.o[0m
+[3.563s] [ 43%] [32mBuilding CXX object CMakeFiles/uwb_simulation__rosidl_typesupport_c.dir/rosidl_typesupport_c/uwb_simulation/msg/uwb_range__type_support.cpp.o[0m
+[3.637s] [ 46%] [32mBuilding C object CMakeFiles/uwb_simulation__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/uwb_simulation/msg/detail/uwb_range__type_support.c.o[0m
+[3.671s] [ 48%] [32mBuilding CXX object CMakeFiles/uwb_simulation__rosidl_typesupport_c.dir/rosidl_typesupport_c/uwb_simulation/msg/uwb_range_array__type_support.cpp.o[0m
+[3.704s] [ 51%] [32mBuilding CXX object CMakeFiles/uwb_simulation__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/uwb_simulation/msg/detail/uwb_range__type_support_c.cpp.o[0m
+[3.743s] [ 53%] [32mBuilding C object CMakeFiles/uwb_simulation__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/uwb_simulation/msg/detail/uwb_range_array__type_support.c.o[0m
+[3.760s] [ 56%] [32m[1mLinking CXX shared library libuwb_simulation__rosidl_typesupport_c.so[0m
+[3.820s] [ 58%] [32mBuilding CXX object CMakeFiles/uwb_simulation__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/uwb_simulation/msg/detail/uwb_range_array__type_support_c.cpp.o[0m
+[3.821s] [ 61%] [32m[1mLinking C shared library libuwb_simulation__rosidl_typesupport_introspection_c.so[0m
+[3.872s] [ 61%] Built target uwb_simulation__rosidl_typesupport_c
+[3.907s] [ 64%] [32mBuilding CXX object CMakeFiles/uwb_simulation__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/uwb_simulation/msg/detail/dds_fastrtps/uwb_range_array__type_support.cpp.o[0m
+[3.929s] [ 66%] [32m[1mLinking CXX shared library libuwb_simulation__rosidl_typesupport_cpp.so[0m
+[3.951s] [ 66%] Built target uwb_simulation__rosidl_typesupport_introspection_c
+[4.048s] [ 66%] Built target uwb_simulation__rosidl_typesupport_cpp
+[4.244s] [ 69%] [32m[1mLinking CXX shared library libuwb_simulation__rosidl_typesupport_introspection_cpp.so[0m
+[4.379s] [ 71%] [32m[1mLinking CXX shared library libuwb_simulation__rosidl_typesupport_fastrtps_c.so[0m
+[4.477s] [ 71%] Built target uwb_simulation__rosidl_typesupport_introspection_cpp
+[4.586s] [ 71%] Built target uwb_simulation__rosidl_typesupport_fastrtps_c
+[4.707s] [ 74%] [32m[1mLinking CXX shared library libuwb_simulation__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.863s] [ 74%] Built target uwb_simulation__rosidl_typesupport_fastrtps_cpp
+[4.905s] [ 74%] Built target uwb_simulation
+[4.952s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[5.596s] [ 76%] Built target uwb_simulation__py
+[5.634s] [ 79%] [32mBuilding C object CMakeFiles/uwb_simulation__rosidl_generator_py.dir/rosidl_generator_py/uwb_simulation/msg/_uwb_range_s.c.o[0m
+[5.639s] [ 82%] [32mBuilding C object CMakeFiles/uwb_simulation__rosidl_generator_py.dir/rosidl_generator_py/uwb_simulation/msg/_uwb_range_array_s.c.o[0m
+[5.777s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/uwb_simulation/libuwb_simulation__rosidl_generator_py.so[0m
+[5.838s] [ 84%] Built target uwb_simulation__rosidl_generator_py
+[5.870s] [ 87%] [32mBuilding C object CMakeFiles/uwb_simulation__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/uwb_simulation/_uwb_simulation_s.ep.rosidl_typesupport_c.c.o[0m
+[5.872s] [ 89%] [32mBuilding C object CMakeFiles/uwb_simulation__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/uwb_simulation/_uwb_simulation_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[5.877s] [ 92%] [32mBuilding C object CMakeFiles/uwb_simulation__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/uwb_simulation/_uwb_simulation_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[5.986s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/uwb_simulation/uwb_simulation_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.993s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/uwb_simulation/uwb_simulation_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.021s] [100%] [32m[1mLinking C shared library rosidl_generator_py/uwb_simulation/uwb_simulation_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.043s] [100%] Built target uwb_simulation__rosidl_typesupport_fastrtps_c__pyext
+[6.050s] [100%] Built target uwb_simulation__rosidl_typesupport_c__pyext
+[6.081s] [100%] Built target uwb_simulation__rosidl_typesupport_introspection_c__pyext
+[6.093s] Invoked command in '/home/nangao/multi_explore/multi-robot-slam/build/uwb_simulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nangao/multi_explore/multi-robot-slam/build/uwb_simulation -- -j8 -l8
+[6.095s] Invoking command in '/home/nangao/multi_explore/multi-robot-slam/build/uwb_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/nangao/multi_explore/multi-robot-slam/build/uwb_simulation
+[6.103s] -- Install configuration: ""
+[6.103s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/share/ament_index/resource_index/rosidl_interfaces/uwb_simulation
+[6.103s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/include/uwb_simulation/uwb_simulation
+[6.103s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/include/uwb_simulation/uwb_simulation/msg
+[6.103s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/include/uwb_simulation/uwb_simulation/msg/rosidl_generator_c__visibility_control.h
+[6.104s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/include/uwb_simulation/uwb_simulation/msg/uwb_range.h
+[6.104s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/include/uwb_simulation/uwb_simulation/msg/uwb_range_array.h
+[6.104s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/include/uwb_simulation/uwb_simulation/msg/detail
+[6.104s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/include/uwb_simulation/uwb_simulation/msg/detail/uwb_range__type_support.h
+[6.104s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/include/uwb_simulation/uwb_simulation/msg/detail/uwb_range__functions.c
+[6.104s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/include/uwb_simulation/uwb_simulation/msg/detail/uwb_range_array__type_support.h
+[6.104s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/include/uwb_simulation/uwb_simulation/msg/detail/uwb_range_array__struct.h
+[6.104s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/include/uwb_simulation/uwb_simulation/msg/detail/uwb_range_array__functions.c
+[6.104s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/include/uwb_simulation/uwb_simulation/msg/detail/uwb_range__struct.h
+[6.105s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/include/uwb_simulation/uwb_simulation/msg/detail/uwb_range__functions.h
+[6.105s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/include/uwb_simulation/uwb_simulation/msg/detail/uwb_range_array__functions.h
+[6.105s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/share/uwb_simulation/environment/library_path.sh
+[6.105s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/share/uwb_simulation/environment/library_path.dsv
+[6.105s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/lib/libuwb_simulation__rosidl_generator_c.so
+[6.105s] -- Set runtime path of "/home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/lib/libuwb_simulation__rosidl_generator_c.so" to ""
+[6.105s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/include/uwb_simulation/uwb_simulation
+[6.105s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/include/uwb_simulation/uwb_simulation/msg
+[6.105s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/include/uwb_simulation/uwb_simulation/msg/detail
+[6.105s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/include/uwb_simulation/uwb_simulation/msg/detail/uwb_range_array__rosidl_typesupport_fastrtps_c.h
+[6.105s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/include/uwb_simulation/uwb_simulation/msg/detail/uwb_range__rosidl_typesupport_fastrtps_c.h
+[6.105s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/include/uwb_simulation/uwb_simulation/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[6.105s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/lib/libuwb_simulation__rosidl_typesupport_fastrtps_c.so
+[6.105s] -- Set runtime path of "/home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/lib/libuwb_simulation__rosidl_typesupport_fastrtps_c.so" to ""
+[6.106s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/include/uwb_simulation/uwb_simulation
+[6.106s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/include/uwb_simulation/uwb_simulation/msg
+[6.106s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/include/uwb_simulation/uwb_simulation/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[6.106s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/include/uwb_simulation/uwb_simulation/msg/detail
+[6.106s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/include/uwb_simulation/uwb_simulation/msg/detail/uwb_range__type_support.c
+[6.106s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/include/uwb_simulation/uwb_simulation/msg/detail/uwb_range__rosidl_typesupport_introspection_c.h
+[6.106s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/include/uwb_simulation/uwb_simulation/msg/detail/uwb_range_array__rosidl_typesupport_introspection_c.h
+[6.107s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/include/uwb_simulation/uwb_simulation/msg/detail/uwb_range_array__type_support.c
+[6.107s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/lib/libuwb_simulation__rosidl_typesupport_introspection_c.so
+[6.107s] -- Set runtime path of "/home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/lib/libuwb_simulation__rosidl_typesupport_introspection_c.so" to ""
+[6.107s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/lib/libuwb_simulation__rosidl_typesupport_c.so
+[6.107s] -- Set runtime path of "/home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/lib/libuwb_simulation__rosidl_typesupport_c.so" to ""
+[6.107s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/include/uwb_simulation/uwb_simulation
+[6.107s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/include/uwb_simulation/uwb_simulation/msg
+[6.107s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/include/uwb_simulation/uwb_simulation/msg/uwb_range.hpp
+[6.107s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/include/uwb_simulation/uwb_simulation/msg/uwb_range_array.hpp
+[6.107s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/include/uwb_simulation/uwb_simulation/msg/rosidl_generator_cpp__visibility_control.hpp
+[6.108s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/include/uwb_simulation/uwb_simulation/msg/detail
+[6.108s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/include/uwb_simulation/uwb_simulation/msg/detail/uwb_range__builder.hpp
+[6.108s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/include/uwb_simulation/uwb_simulation/msg/detail/uwb_range_array__type_support.hpp
+[6.108s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/include/uwb_simulation/uwb_simulation/msg/detail/uwb_range__traits.hpp
+[6.108s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/include/uwb_simulation/uwb_simulation/msg/detail/uwb_range__type_support.hpp
+[6.108s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/include/uwb_simulation/uwb_simulation/msg/detail/uwb_range_array__traits.hpp
+[6.108s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/include/uwb_simulation/uwb_simulation/msg/detail/uwb_range__struct.hpp
+[6.108s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/include/uwb_simulation/uwb_simulation/msg/detail/uwb_range_array__builder.hpp
+[6.108s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/include/uwb_simulation/uwb_simulation/msg/detail/uwb_range_array__struct.hpp
+[6.109s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/include/uwb_simulation/uwb_simulation
+[6.109s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/include/uwb_simulation/uwb_simulation/msg
+[6.109s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/include/uwb_simulation/uwb_simulation/msg/detail
+[6.109s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/include/uwb_simulation/uwb_simulation/msg/detail/uwb_range_array__rosidl_typesupport_fastrtps_cpp.hpp
+[6.109s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/include/uwb_simulation/uwb_simulation/msg/detail/dds_fastrtps
+[6.110s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/include/uwb_simulation/uwb_simulation/msg/detail/uwb_range__rosidl_typesupport_fastrtps_cpp.hpp
+[6.110s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/include/uwb_simulation/uwb_simulation/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[6.110s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/lib/libuwb_simulation__rosidl_typesupport_fastrtps_cpp.so
+[6.110s] -- Set runtime path of "/home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/lib/libuwb_simulation__rosidl_typesupport_fastrtps_cpp.so" to ""
+[6.110s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/include/uwb_simulation/uwb_simulation
+[6.110s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/include/uwb_simulation/uwb_simulation/msg
+[6.110s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/include/uwb_simulation/uwb_simulation/msg/detail
+[6.111s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/include/uwb_simulation/uwb_simulation/msg/detail/uwb_range_array__rosidl_typesupport_introspection_cpp.hpp
+[6.111s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/include/uwb_simulation/uwb_simulation/msg/detail/uwb_range_array__type_support.cpp
+[6.111s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/include/uwb_simulation/uwb_simulation/msg/detail/uwb_range__rosidl_typesupport_introspection_cpp.hpp
+[6.111s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/include/uwb_simulation/uwb_simulation/msg/detail/uwb_range__type_support.cpp
+[6.111s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/lib/libuwb_simulation__rosidl_typesupport_introspection_cpp.so
+[6.111s] -- Set runtime path of "/home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/lib/libuwb_simulation__rosidl_typesupport_introspection_cpp.so" to ""
+[6.111s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/lib/libuwb_simulation__rosidl_typesupport_cpp.so
+[6.111s] -- Set runtime path of "/home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/lib/libuwb_simulation__rosidl_typesupport_cpp.so" to ""
+[6.111s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/share/uwb_simulation/environment/pythonpath.sh
+[6.111s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/share/uwb_simulation/environment/pythonpath.dsv
+[6.112s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/local/lib/python3.10/dist-packages/uwb_simulation-0.0.1-py3.10.egg-info
+[6.112s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/local/lib/python3.10/dist-packages/uwb_simulation-0.0.1-py3.10.egg-info/dependency_links.txt
+[6.112s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/local/lib/python3.10/dist-packages/uwb_simulation-0.0.1-py3.10.egg-info/PKG-INFO
+[6.112s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/local/lib/python3.10/dist-packages/uwb_simulation-0.0.1-py3.10.egg-info/SOURCES.txt
+[6.112s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/local/lib/python3.10/dist-packages/uwb_simulation-0.0.1-py3.10.egg-info/top_level.txt
+[6.112s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/local/lib/python3.10/dist-packages/uwb_simulation
+[6.112s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/local/lib/python3.10/dist-packages/uwb_simulation/libuwb_simulation__rosidl_generator_py.so
+[6.112s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/local/lib/python3.10/dist-packages/uwb_simulation/uwb_simulation_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[6.112s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/local/lib/python3.10/dist-packages/uwb_simulation/_uwb_simulation_s.ep.rosidl_typesupport_c.c
+[6.112s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/local/lib/python3.10/dist-packages/uwb_simulation/_uwb_simulation_s.ep.rosidl_typesupport_introspection_c.c
+[6.112s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/local/lib/python3.10/dist-packages/uwb_simulation/_uwb_simulation_s.ep.rosidl_typesupport_fastrtps_c.c
+[6.112s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/local/lib/python3.10/dist-packages/uwb_simulation/uwb_simulation_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[6.112s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/local/lib/python3.10/dist-packages/uwb_simulation/msg
+[6.112s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/local/lib/python3.10/dist-packages/uwb_simulation/msg/_uwb_range_array.py
+[6.112s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/local/lib/python3.10/dist-packages/uwb_simulation/msg/_uwb_range_s.c
+[6.112s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/local/lib/python3.10/dist-packages/uwb_simulation/msg/_uwb_range.py
+[6.112s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/local/lib/python3.10/dist-packages/uwb_simulation/msg/_uwb_range_array_s.c
+[6.112s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/local/lib/python3.10/dist-packages/uwb_simulation/msg/__init__.py
+[6.113s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/local/lib/python3.10/dist-packages/uwb_simulation/__init__.py
+[6.113s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/local/lib/python3.10/dist-packages/uwb_simulation/uwb_simulation_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[6.141s] Listing '/home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/local/lib/python3.10/dist-packages/uwb_simulation'...
+[6.141s] Compiling '/home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/local/lib/python3.10/dist-packages/uwb_simulation/__init__.py'...
+[6.141s] Listing '/home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/local/lib/python3.10/dist-packages/uwb_simulation/msg'...
+[6.141s] Compiling '/home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/local/lib/python3.10/dist-packages/uwb_simulation/msg/__init__.py'...
+[6.141s] Compiling '/home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/local/lib/python3.10/dist-packages/uwb_simulation/msg/_uwb_range.py'...
+[6.141s] Compiling '/home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/local/lib/python3.10/dist-packages/uwb_simulation/msg/_uwb_range_array.py'...
+[6.147s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/local/lib/python3.10/dist-packages/uwb_simulation/uwb_simulation_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[6.147s] -- Set runtime path of "/home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/local/lib/python3.10/dist-packages/uwb_simulation/uwb_simulation_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[6.147s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/local/lib/python3.10/dist-packages/uwb_simulation/uwb_simulation_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[6.147s] -- Set runtime path of "/home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/local/lib/python3.10/dist-packages/uwb_simulation/uwb_simulation_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[6.147s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/local/lib/python3.10/dist-packages/uwb_simulation/uwb_simulation_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[6.147s] -- Set runtime path of "/home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/local/lib/python3.10/dist-packages/uwb_simulation/uwb_simulation_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[6.148s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/lib/libuwb_simulation__rosidl_generator_py.so
+[6.148s] -- Set runtime path of "/home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/lib/libuwb_simulation__rosidl_generator_py.so" to ""
+[6.148s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/share/uwb_simulation/msg/UwbRange.idl
+[6.148s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/share/uwb_simulation/msg/UwbRangeArray.idl
+[6.148s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/share/uwb_simulation/msg/UwbRange.msg
+[6.148s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/share/uwb_simulation/msg/UwbRangeArray.msg
+[6.149s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/lib/uwb_simulation/uwb_range_simulator.py
+[6.149s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/lib/uwb_simulation/uwb_range_publisher.py
+[6.149s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/share/uwb_simulation/launch
+[6.149s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/share/uwb_simulation/launch/uwb_simulation.launch.py
+[6.149s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/share/uwb_simulation/config
+[6.150s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/share/uwb_simulation/config/.gitkeep
+[6.150s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/share/ament_index/resource_index/package_run_dependencies/uwb_simulation
+[6.150s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/share/ament_index/resource_index/parent_prefix_path/uwb_simulation
+[6.150s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/share/uwb_simulation/environment/ament_prefix_path.sh
+[6.150s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/share/uwb_simulation/environment/ament_prefix_path.dsv
+[6.150s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/share/uwb_simulation/environment/path.sh
+[6.150s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/share/uwb_simulation/environment/path.dsv
+[6.150s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/share/uwb_simulation/local_setup.bash
+[6.150s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/share/uwb_simulation/local_setup.sh
+[6.150s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/share/uwb_simulation/local_setup.zsh
+[6.151s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/share/uwb_simulation/local_setup.dsv
+[6.151s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/share/uwb_simulation/package.dsv
+[6.151s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/share/ament_index/resource_index/packages/uwb_simulation
+[6.151s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/share/uwb_simulation/cmake/export_uwb_simulation__rosidl_generator_cExport.cmake
+[6.151s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/share/uwb_simulation/cmake/export_uwb_simulation__rosidl_generator_cExport-noconfig.cmake
+[6.151s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/share/uwb_simulation/cmake/export_uwb_simulation__rosidl_typesupport_fastrtps_cExport.cmake
+[6.152s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/share/uwb_simulation/cmake/export_uwb_simulation__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[6.152s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/share/uwb_simulation/cmake/uwb_simulation__rosidl_typesupport_introspection_cExport.cmake
+[6.152s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/share/uwb_simulation/cmake/uwb_simulation__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[6.152s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/share/uwb_simulation/cmake/uwb_simulation__rosidl_typesupport_cExport.cmake
+[6.152s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/share/uwb_simulation/cmake/uwb_simulation__rosidl_typesupport_cExport-noconfig.cmake
+[6.152s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/share/uwb_simulation/cmake/export_uwb_simulation__rosidl_generator_cppExport.cmake
+[6.153s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/share/uwb_simulation/cmake/export_uwb_simulation__rosidl_typesupport_fastrtps_cppExport.cmake
+[6.153s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/share/uwb_simulation/cmake/export_uwb_simulation__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[6.153s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/share/uwb_simulation/cmake/uwb_simulation__rosidl_typesupport_introspection_cppExport.cmake
+[6.153s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/share/uwb_simulation/cmake/uwb_simulation__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[6.153s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/share/uwb_simulation/cmake/uwb_simulation__rosidl_typesupport_cppExport.cmake
+[6.153s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/share/uwb_simulation/cmake/uwb_simulation__rosidl_typesupport_cppExport-noconfig.cmake
+[6.153s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/share/uwb_simulation/cmake/export_uwb_simulation__rosidl_generator_pyExport.cmake
+[6.153s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/share/uwb_simulation/cmake/export_uwb_simulation__rosidl_generator_pyExport-noconfig.cmake
+[6.153s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/share/uwb_simulation/cmake/rosidl_cmake-extras.cmake
+[6.153s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/share/uwb_simulation/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.153s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/share/uwb_simulation/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.153s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/share/uwb_simulation/cmake/ament_cmake_export_libraries-extras.cmake
+[6.153s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/share/uwb_simulation/cmake/ament_cmake_export_targets-extras.cmake
+[6.153s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/share/uwb_simulation/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[6.153s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/share/uwb_simulation/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[6.154s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/share/uwb_simulation/cmake/uwb_simulationConfig.cmake
+[6.154s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/share/uwb_simulation/cmake/uwb_simulationConfig-version.cmake
+[6.154s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/share/uwb_simulation/package.xml
+[6.156s] Invoked command in '/home/nangao/multi_explore/multi-robot-slam/build/uwb_simulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/nangao/multi_explore/multi-robot-slam/build/uwb_simulation

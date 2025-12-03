@@ -1,0 +1,12 @@
+// generated from rosidl_generator_cpp/resource/idl.hpp.em
+// generated code does not contain a copyright notice
+
+#ifndef MULTI_ROBOT_SLAM__MSG__POSE_GRAPH_EDGE_HPP_
+#define MULTI_ROBOT_SLAM__MSG__POSE_GRAPH_EDGE_HPP_
+
+#include "multi_robot_slam/msg/detail/pose_graph_edge__struct.hpp"
+#include "multi_robot_slam/msg/detail/pose_graph_edge__builder.hpp"
+#include "multi_robot_slam/msg/detail/pose_graph_edge__traits.hpp"
+#include "multi_robot_slam/msg/detail/pose_graph_edge__type_support.hpp"
+
+#endif  // MULTI_ROBOT_SLAM__MSG__POSE_GRAPH_EDGE_HPP_

@@ -1,0 +1,25 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/multi_robot_slam__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/multi_robot_slam/msg/detail/map_merge_status__type_support.c.o"
+  "CMakeFiles/multi_robot_slam__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/multi_robot_slam/msg/detail/map_merge_status__type_support.c.o.d"
+  "CMakeFiles/multi_robot_slam__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/multi_robot_slam/msg/detail/pose_graph__type_support.c.o"
+  "CMakeFiles/multi_robot_slam__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/multi_robot_slam/msg/detail/pose_graph__type_support.c.o.d"
+  "CMakeFiles/multi_robot_slam__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/multi_robot_slam/msg/detail/pose_graph_edge__type_support.c.o"
+  "CMakeFiles/multi_robot_slam__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/multi_robot_slam/msg/detail/pose_graph_edge__type_support.c.o.d"
+  "CMakeFiles/multi_robot_slam__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/multi_robot_slam/msg/detail/pose_graph_node__type_support.c.o"
+  "CMakeFiles/multi_robot_slam__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/multi_robot_slam/msg/detail/pose_graph_node__type_support.c.o.d"
+  "libmulti_robot_slam__rosidl_typesupport_introspection_c.pdb"
+  "libmulti_robot_slam__rosidl_typesupport_introspection_c.so"
+  "rosidl_typesupport_introspection_c/multi_robot_slam/msg/detail/map_merge_status__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/multi_robot_slam/msg/detail/map_merge_status__type_support.c"
+  "rosidl_typesupport_introspection_c/multi_robot_slam/msg/detail/pose_graph__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/multi_robot_slam/msg/detail/pose_graph__type_support.c"
+  "rosidl_typesupport_introspection_c/multi_robot_slam/msg/detail/pose_graph_edge__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/multi_robot_slam/msg/detail/pose_graph_edge__type_support.c"
+  "rosidl_typesupport_introspection_c/multi_robot_slam/msg/detail/pose_graph_node__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/multi_robot_slam/msg/detail/pose_graph_node__type_support.c"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/multi_robot_slam__rosidl_typesupport_introspection_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

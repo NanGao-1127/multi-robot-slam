@@ -1,0 +1,38 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from multi_robot_slam/msg/MapMergeStatus.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Transform.idl"
+#include "std_msgs/msg/Header.idl"
+
+module multi_robot_slam {
+  module msg {
+    @verbatim (language="comment", text=
+      "Map merge status message")
+    struct MapMergeStatus {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "Status flags")
+      boolean maps_aligned;
+
+      boolean merge_successful;
+
+      @verbatim (language="comment", text=
+        "Number of robots contributing to the merged map")
+      uint8 num_robots;
+
+      @verbatim (language="comment", text=
+        "Transform from each robot's map frame to global frame")
+      sequence<string> robot_ids;
+
+      sequence<geometry_msgs::msg::Transform> transforms;
+
+      @verbatim (language="comment", text=
+        "Quality metrics")
+      double alignment_score;
+
+      double overlap_ratio;
+    };
+  };
+};

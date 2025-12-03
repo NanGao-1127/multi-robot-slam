@@ -1,0 +1,58 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from multi_robot_slam/msg/PoseGraphEdge.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Pose.idl"
+#include "std_msgs/msg/Header.idl"
+
+module multi_robot_slam {
+  module msg {
+    typedef double double__36[36];
+    module PoseGraphEdge_Constants {
+      @verbatim (language="comment", text=
+        "Edge type")
+      const uint8 EDGE_ODOMETRY = 0;
+      const uint8 EDGE_LOOP_CLOSURE = 1;
+      const uint8 EDGE_UWB_RANGE = 2;
+    };
+    @verbatim (language="comment", text=
+      "Pose graph edge (constraint) message")
+    struct PoseGraphEdge {
+      std_msgs::msg::Header header;
+
+      uint8 edge_type;
+
+      @verbatim (language="comment", text=
+        "Source and target node IDs")
+      uint32 source_node_id;
+
+      uint32 target_node_id;
+
+      @verbatim (language="comment", text=
+        "Source and target robot IDs (for inter-robot edges)")
+      string source_robot_id;
+
+      string target_robot_id;
+
+      @verbatim (language="comment", text=
+        "For odometry/loop closure edges: relative transform")
+      geometry_msgs::msg::Pose relative_pose;
+
+      @verbatim (language="comment", text=
+        "For range edges: measured range")
+      double range_measurement;
+
+      @verbatim (language="comment", text=
+        "Measurement uncertainty")
+      double__36 information_matrix;
+
+      @verbatim (language="comment", text=
+        "Switch variable for robust optimization (1.0 = on, 0.0 = off)")
+      double switch_variable;
+
+      @verbatim (language="comment", text=
+        "Whether this edge is active in optimization")
+      boolean is_active;
+    };
+  };
+};

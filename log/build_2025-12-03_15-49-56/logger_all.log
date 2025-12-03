@@ -1,0 +1,347 @@
+[0.137s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.137s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x72dd79d602b0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x72dd79d2fd90>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x72dd79d2fd90>>)
+[0.381s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.382s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.382s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.382s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.382s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.382s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.382s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/nangao/multi_explore/multi-robot-slam'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_robot_exploration) by extensions ['ignore', 'ignore_ament_install']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_robot_exploration) by extension 'ignore'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_robot_exploration) by extension 'ignore_ament_install'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_robot_exploration) by extensions ['colcon_pkg']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_robot_exploration) by extension 'colcon_pkg'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_robot_exploration) by extensions ['colcon_meta']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_robot_exploration) by extension 'colcon_meta'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_robot_exploration) by extensions ['ros']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_robot_exploration) by extension 'ros'
+[0.395s] DEBUG:colcon.colcon_core.package_identification:Package 'src/multi_robot_exploration' with type 'ros.ament_cmake' and name 'multi_robot_exploration'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_robot_slam) by extensions ['ignore', 'ignore_ament_install']
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_robot_slam) by extension 'ignore'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_robot_slam) by extension 'ignore_ament_install'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_robot_slam) by extensions ['colcon_pkg']
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_robot_slam) by extension 'colcon_pkg'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_robot_slam) by extensions ['colcon_meta']
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_robot_slam) by extension 'colcon_meta'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_robot_slam) by extensions ['ros']
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_robot_slam) by extension 'ros'
+[0.397s] DEBUG:colcon.colcon_core.package_identification:Package 'src/multi_robot_slam' with type 'ros.ament_cmake' and name 'multi_robot_slam'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extension 'ignore'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extension 'ignore_ament_install'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extensions ['colcon_pkg']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extension 'colcon_pkg'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extensions ['colcon_meta']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extension 'colcon_meta'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extensions ['ros']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extension 'ros'
+[0.398s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_description' with type 'ros.ament_cmake' and name 'robot_description'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/uwb_simulation) by extensions ['ignore', 'ignore_ament_install']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/uwb_simulation) by extension 'ignore'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/uwb_simulation) by extension 'ignore_ament_install'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/uwb_simulation) by extensions ['colcon_pkg']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/uwb_simulation) by extension 'colcon_pkg'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/uwb_simulation) by extensions ['colcon_meta']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/uwb_simulation) by extension 'colcon_meta'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/uwb_simulation) by extensions ['ros']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/uwb_simulation) by extension 'ros'
+[0.399s] DEBUG:colcon.colcon_core.package_identification:Package 'src/uwb_simulation' with type 'ros.ament_cmake' and name 'uwb_simulation'
+[0.399s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.399s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.399s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.399s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.399s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.436s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.436s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.438s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/nangao/multi_explore/multi-robot-slam/install
+[0.439s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 370 installed packages in /opt/ros/humble
+[0.440s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.474s] Level 5:colcon.colcon_core.verb:set package 'multi_robot_exploration' build argument 'cmake_args' from command line to 'None'
+[0.474s] Level 5:colcon.colcon_core.verb:set package 'multi_robot_exploration' build argument 'cmake_target' from command line to 'None'
+[0.474s] Level 5:colcon.colcon_core.verb:set package 'multi_robot_exploration' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.474s] Level 5:colcon.colcon_core.verb:set package 'multi_robot_exploration' build argument 'cmake_clean_cache' from command line to 'False'
+[0.474s] Level 5:colcon.colcon_core.verb:set package 'multi_robot_exploration' build argument 'cmake_clean_first' from command line to 'False'
+[0.474s] Level 5:colcon.colcon_core.verb:set package 'multi_robot_exploration' build argument 'cmake_force_configure' from command line to 'False'
+[0.474s] Level 5:colcon.colcon_core.verb:set package 'multi_robot_exploration' build argument 'ament_cmake_args' from command line to 'None'
+[0.474s] Level 5:colcon.colcon_core.verb:set package 'multi_robot_exploration' build argument 'catkin_cmake_args' from command line to 'None'
+[0.474s] Level 5:colcon.colcon_core.verb:set package 'multi_robot_exploration' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.474s] DEBUG:colcon.colcon_core.verb:Building package 'multi_robot_exploration' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nangao/multi_explore/multi-robot-slam/build/multi_robot_exploration', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nangao/multi_explore/multi-robot-slam/install/multi_robot_exploration', 'merge_install': False, 'path': '/home/nangao/multi_explore/multi-robot-slam/src/multi_robot_exploration', 'symlink_install': False, 'test_result_base': None}
+[0.475s] Level 5:colcon.colcon_core.verb:set package 'multi_robot_slam' build argument 'cmake_args' from command line to 'None'
+[0.475s] Level 5:colcon.colcon_core.verb:set package 'multi_robot_slam' build argument 'cmake_target' from command line to 'None'
+[0.475s] Level 5:colcon.colcon_core.verb:set package 'multi_robot_slam' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.475s] Level 5:colcon.colcon_core.verb:set package 'multi_robot_slam' build argument 'cmake_clean_cache' from command line to 'False'
+[0.475s] Level 5:colcon.colcon_core.verb:set package 'multi_robot_slam' build argument 'cmake_clean_first' from command line to 'False'
+[0.475s] Level 5:colcon.colcon_core.verb:set package 'multi_robot_slam' build argument 'cmake_force_configure' from command line to 'False'
+[0.475s] Level 5:colcon.colcon_core.verb:set package 'multi_robot_slam' build argument 'ament_cmake_args' from command line to 'None'
+[0.475s] Level 5:colcon.colcon_core.verb:set package 'multi_robot_slam' build argument 'catkin_cmake_args' from command line to 'None'
+[0.475s] Level 5:colcon.colcon_core.verb:set package 'multi_robot_slam' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.475s] DEBUG:colcon.colcon_core.verb:Building package 'multi_robot_slam' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nangao/multi_explore/multi-robot-slam/build/multi_robot_slam', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam', 'merge_install': False, 'path': '/home/nangao/multi_explore/multi-robot-slam/src/multi_robot_slam', 'symlink_install': False, 'test_result_base': None}
+[0.475s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_args' from command line to 'None'
+[0.475s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_target' from command line to 'None'
+[0.475s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.475s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.475s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.475s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.475s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.475s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.475s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.475s] DEBUG:colcon.colcon_core.verb:Building package 'robot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nangao/multi_explore/multi-robot-slam/build/robot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nangao/multi_explore/multi-robot-slam/install/robot_description', 'merge_install': False, 'path': '/home/nangao/multi_explore/multi-robot-slam/src/robot_description', 'symlink_install': False, 'test_result_base': None}
+[0.475s] Level 5:colcon.colcon_core.verb:set package 'uwb_simulation' build argument 'cmake_args' from command line to 'None'
+[0.475s] Level 5:colcon.colcon_core.verb:set package 'uwb_simulation' build argument 'cmake_target' from command line to 'None'
+[0.475s] Level 5:colcon.colcon_core.verb:set package 'uwb_simulation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.475s] Level 5:colcon.colcon_core.verb:set package 'uwb_simulation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.475s] Level 5:colcon.colcon_core.verb:set package 'uwb_simulation' build argument 'cmake_clean_first' from command line to 'False'
+[0.475s] Level 5:colcon.colcon_core.verb:set package 'uwb_simulation' build argument 'cmake_force_configure' from command line to 'False'
+[0.475s] Level 5:colcon.colcon_core.verb:set package 'uwb_simulation' build argument 'ament_cmake_args' from command line to 'None'
+[0.475s] Level 5:colcon.colcon_core.verb:set package 'uwb_simulation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.475s] Level 5:colcon.colcon_core.verb:set package 'uwb_simulation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.475s] DEBUG:colcon.colcon_core.verb:Building package 'uwb_simulation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nangao/multi_explore/multi-robot-slam/build/uwb_simulation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation', 'merge_install': False, 'path': '/home/nangao/multi_explore/multi-robot-slam/src/uwb_simulation', 'symlink_install': False, 'test_result_base': None}
+[0.476s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.477s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.478s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/nangao/multi_explore/multi-robot-slam/src/multi_robot_exploration' with build type 'ament_cmake'
+[0.479s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/nangao/multi_explore/multi-robot-slam/src/multi_robot_exploration'
+[0.482s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.482s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.482s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.488s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/nangao/multi_explore/multi-robot-slam/src/multi_robot_slam' with build type 'ament_cmake'
+[0.488s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/nangao/multi_explore/multi-robot-slam/src/multi_robot_slam'
+[0.488s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.489s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.494s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/nangao/multi_explore/multi-robot-slam/src/robot_description' with build type 'ament_cmake'
+[0.495s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/nangao/multi_explore/multi-robot-slam/src/robot_description'
+[0.495s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.495s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.502s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/nangao/multi_explore/multi-robot-slam/src/uwb_simulation' with build type 'ament_cmake'
+[0.503s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/nangao/multi_explore/multi-robot-slam/src/uwb_simulation'
+[0.503s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.503s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.529s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nangao/multi_explore/multi-robot-slam/build/multi_robot_exploration': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nangao/multi_explore/multi-robot-slam/build/multi_robot_exploration -- -j8 -l8
+[0.539s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nangao/multi_explore/multi-robot-slam/build/multi_robot_slam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nangao/multi_explore/multi-robot-slam/build/multi_robot_slam -- -j8 -l8
+[0.548s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nangao/multi_explore/multi-robot-slam/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nangao/multi_explore/multi-robot-slam/build/robot_description -- -j8 -l8
+[0.566s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nangao/multi_explore/multi-robot-slam/build/uwb_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nangao/multi_explore/multi-robot-slam/build/uwb_simulation -- -j8 -l8
+[0.657s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nangao/multi_explore/multi-robot-slam/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nangao/multi_explore/multi-robot-slam/build/robot_description -- -j8 -l8
+[0.677s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nangao/multi_explore/multi-robot-slam/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/nangao/multi_explore/multi-robot-slam/build/robot_description
+[0.684s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nangao/multi_explore/multi-robot-slam/build/multi_robot_exploration' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nangao/multi_explore/multi-robot-slam/build/multi_robot_exploration -- -j8 -l8
+[0.684s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nangao/multi_explore/multi-robot-slam/build/multi_robot_exploration': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/nangao/multi_explore/multi-robot-slam/build/multi_robot_exploration
+[0.731s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(multi_robot_exploration)
+[0.732s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nangao/multi_explore/multi-robot-slam/build/multi_robot_exploration' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/nangao/multi_explore/multi-robot-slam/build/multi_robot_exploration
+[0.772s] Level 1:colcon.colcon_core.environment:checking '/home/nangao/multi_explore/multi-robot-slam/install/multi_robot_exploration' for CMake module files
+[0.779s] Level 1:colcon.colcon_core.environment:checking '/home/nangao/multi_explore/multi-robot-slam/install/multi_robot_exploration' for CMake config files
+[0.780s] Level 1:colcon.colcon_core.shell:create_environment_hook('multi_robot_exploration', 'cmake_prefix_path')
+[0.780s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nangao/multi_explore/multi-robot-slam/install/multi_robot_exploration/share/multi_robot_exploration/hook/cmake_prefix_path.ps1'
+[0.783s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nangao/multi_explore/multi-robot-slam/install/multi_robot_exploration/share/multi_robot_exploration/hook/cmake_prefix_path.dsv'
+[0.786s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nangao/multi_explore/multi-robot-slam/install/multi_robot_exploration/share/multi_robot_exploration/hook/cmake_prefix_path.sh'
+[0.796s] Level 1:colcon.colcon_core.environment:checking '/home/nangao/multi_explore/multi-robot-slam/install/multi_robot_exploration/lib'
+[0.799s] Level 1:colcon.colcon_core.environment:checking '/home/nangao/multi_explore/multi-robot-slam/install/multi_robot_exploration/bin'
+[0.799s] Level 1:colcon.colcon_core.environment:checking '/home/nangao/multi_explore/multi-robot-slam/install/multi_robot_exploration/lib/pkgconfig/multi_robot_exploration.pc'
+[0.800s] Level 1:colcon.colcon_core.environment:checking '/home/nangao/multi_explore/multi-robot-slam/install/multi_robot_exploration/lib/python3.10/site-packages'
+[0.801s] Level 1:colcon.colcon_core.environment:checking '/home/nangao/multi_explore/multi-robot-slam/install/multi_robot_exploration/bin'
+[0.803s] INFO:colcon.colcon_core.shell:Creating package script '/home/nangao/multi_explore/multi-robot-slam/install/multi_robot_exploration/share/multi_robot_exploration/package.ps1'
+[0.807s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nangao/multi_explore/multi-robot-slam/install/multi_robot_exploration/share/multi_robot_exploration/package.dsv'
+[0.809s] INFO:colcon.colcon_core.shell:Creating package script '/home/nangao/multi_explore/multi-robot-slam/install/multi_robot_exploration/share/multi_robot_exploration/package.sh'
+[0.811s] INFO:colcon.colcon_core.shell:Creating package script '/home/nangao/multi_explore/multi-robot-slam/install/multi_robot_exploration/share/multi_robot_exploration/package.bash'
+[0.814s] INFO:colcon.colcon_core.shell:Creating package script '/home/nangao/multi_explore/multi-robot-slam/install/multi_robot_exploration/share/multi_robot_exploration/package.zsh'
+[0.816s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nangao/multi_explore/multi-robot-slam/install/multi_robot_exploration/share/colcon-core/packages/multi_robot_exploration)
+[0.818s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(multi_robot_exploration)
+[0.819s] Level 1:colcon.colcon_core.environment:checking '/home/nangao/multi_explore/multi-robot-slam/install/multi_robot_exploration' for CMake module files
+[0.819s] Level 1:colcon.colcon_core.environment:checking '/home/nangao/multi_explore/multi-robot-slam/install/multi_robot_exploration' for CMake config files
+[0.820s] Level 1:colcon.colcon_core.shell:create_environment_hook('multi_robot_exploration', 'cmake_prefix_path')
+[0.820s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nangao/multi_explore/multi-robot-slam/install/multi_robot_exploration/share/multi_robot_exploration/hook/cmake_prefix_path.ps1'
+[0.823s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nangao/multi_explore/multi-robot-slam/install/multi_robot_exploration/share/multi_robot_exploration/hook/cmake_prefix_path.dsv'
+[0.825s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nangao/multi_explore/multi-robot-slam/install/multi_robot_exploration/share/multi_robot_exploration/hook/cmake_prefix_path.sh'
+[0.826s] Level 1:colcon.colcon_core.environment:checking '/home/nangao/multi_explore/multi-robot-slam/install/multi_robot_exploration/lib'
+[0.827s] Level 1:colcon.colcon_core.environment:checking '/home/nangao/multi_explore/multi-robot-slam/install/multi_robot_exploration/bin'
+[0.827s] Level 1:colcon.colcon_core.environment:checking '/home/nangao/multi_explore/multi-robot-slam/install/multi_robot_exploration/lib/pkgconfig/multi_robot_exploration.pc'
+[0.827s] Level 1:colcon.colcon_core.environment:checking '/home/nangao/multi_explore/multi-robot-slam/install/multi_robot_exploration/lib/python3.10/site-packages'
+[0.828s] Level 1:colcon.colcon_core.environment:checking '/home/nangao/multi_explore/multi-robot-slam/install/multi_robot_exploration/bin'
+[0.828s] INFO:colcon.colcon_core.shell:Creating package script '/home/nangao/multi_explore/multi-robot-slam/install/multi_robot_exploration/share/multi_robot_exploration/package.ps1'
+[0.830s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nangao/multi_explore/multi-robot-slam/install/multi_robot_exploration/share/multi_robot_exploration/package.dsv'
+[0.831s] INFO:colcon.colcon_core.shell:Creating package script '/home/nangao/multi_explore/multi-robot-slam/install/multi_robot_exploration/share/multi_robot_exploration/package.sh'
+[0.832s] INFO:colcon.colcon_core.shell:Creating package script '/home/nangao/multi_explore/multi-robot-slam/install/multi_robot_exploration/share/multi_robot_exploration/package.bash'
+[0.833s] INFO:colcon.colcon_core.shell:Creating package script '/home/nangao/multi_explore/multi-robot-slam/install/multi_robot_exploration/share/multi_robot_exploration/package.zsh'
+[0.833s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nangao/multi_explore/multi-robot-slam/install/multi_robot_exploration/share/colcon-core/packages/multi_robot_exploration)
+[0.835s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_description)
+[0.836s] Level 1:colcon.colcon_core.environment:checking '/home/nangao/multi_explore/multi-robot-slam/install/robot_description' for CMake module files
+[0.838s] Level 1:colcon.colcon_core.environment:checking '/home/nangao/multi_explore/multi-robot-slam/install/robot_description' for CMake config files
+[0.839s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_description', 'cmake_prefix_path')
+[0.839s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nangao/multi_explore/multi-robot-slam/install/robot_description/share/robot_description/hook/cmake_prefix_path.ps1'
+[0.841s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nangao/multi_explore/multi-robot-slam/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/nangao/multi_explore/multi-robot-slam/build/robot_description
+[0.842s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nangao/multi_explore/multi-robot-slam/install/robot_description/share/robot_description/hook/cmake_prefix_path.dsv'
+[0.844s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nangao/multi_explore/multi-robot-slam/install/robot_description/share/robot_description/hook/cmake_prefix_path.sh'
+[0.845s] Level 1:colcon.colcon_core.environment:checking '/home/nangao/multi_explore/multi-robot-slam/install/robot_description/bin'
+[0.845s] Level 1:colcon.colcon_core.environment:checking '/home/nangao/multi_explore/multi-robot-slam/install/robot_description/lib/pkgconfig/robot_description.pc'
+[0.845s] Level 1:colcon.colcon_core.environment:checking '/home/nangao/multi_explore/multi-robot-slam/install/robot_description/lib/python3.10/site-packages'
+[0.846s] Level 1:colcon.colcon_core.environment:checking '/home/nangao/multi_explore/multi-robot-slam/install/robot_description/bin'
+[0.846s] INFO:colcon.colcon_core.shell:Creating package script '/home/nangao/multi_explore/multi-robot-slam/install/robot_description/share/robot_description/package.ps1'
+[0.847s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nangao/multi_explore/multi-robot-slam/install/robot_description/share/robot_description/package.dsv'
+[0.848s] INFO:colcon.colcon_core.shell:Creating package script '/home/nangao/multi_explore/multi-robot-slam/install/robot_description/share/robot_description/package.sh'
+[0.849s] INFO:colcon.colcon_core.shell:Creating package script '/home/nangao/multi_explore/multi-robot-slam/install/robot_description/share/robot_description/package.bash'
+[0.850s] INFO:colcon.colcon_core.shell:Creating package script '/home/nangao/multi_explore/multi-robot-slam/install/robot_description/share/robot_description/package.zsh'
+[0.852s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nangao/multi_explore/multi-robot-slam/install/robot_description/share/colcon-core/packages/robot_description)
+[0.853s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_description)
+[0.853s] Level 1:colcon.colcon_core.environment:checking '/home/nangao/multi_explore/multi-robot-slam/install/robot_description' for CMake module files
+[0.854s] Level 1:colcon.colcon_core.environment:checking '/home/nangao/multi_explore/multi-robot-slam/install/robot_description' for CMake config files
+[0.854s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_description', 'cmake_prefix_path')
+[0.854s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nangao/multi_explore/multi-robot-slam/install/robot_description/share/robot_description/hook/cmake_prefix_path.ps1'
+[0.855s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nangao/multi_explore/multi-robot-slam/install/robot_description/share/robot_description/hook/cmake_prefix_path.dsv'
+[0.856s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nangao/multi_explore/multi-robot-slam/install/robot_description/share/robot_description/hook/cmake_prefix_path.sh'
+[0.857s] Level 1:colcon.colcon_core.environment:checking '/home/nangao/multi_explore/multi-robot-slam/install/robot_description/bin'
+[0.857s] Level 1:colcon.colcon_core.environment:checking '/home/nangao/multi_explore/multi-robot-slam/install/robot_description/lib/pkgconfig/robot_description.pc'
+[0.857s] Level 1:colcon.colcon_core.environment:checking '/home/nangao/multi_explore/multi-robot-slam/install/robot_description/lib/python3.10/site-packages'
+[0.857s] Level 1:colcon.colcon_core.environment:checking '/home/nangao/multi_explore/multi-robot-slam/install/robot_description/bin'
+[0.858s] INFO:colcon.colcon_core.shell:Creating package script '/home/nangao/multi_explore/multi-robot-slam/install/robot_description/share/robot_description/package.ps1'
+[0.858s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nangao/multi_explore/multi-robot-slam/install/robot_description/share/robot_description/package.dsv'
+[0.859s] INFO:colcon.colcon_core.shell:Creating package script '/home/nangao/multi_explore/multi-robot-slam/install/robot_description/share/robot_description/package.sh'
+[0.861s] INFO:colcon.colcon_core.shell:Creating package script '/home/nangao/multi_explore/multi-robot-slam/install/robot_description/share/robot_description/package.bash'
+[0.861s] INFO:colcon.colcon_core.shell:Creating package script '/home/nangao/multi_explore/multi-robot-slam/install/robot_description/share/robot_description/package.zsh'
+[0.862s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nangao/multi_explore/multi-robot-slam/install/robot_description/share/colcon-core/packages/robot_description)
+[1.087s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nangao/multi_explore/multi-robot-slam/build/uwb_simulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nangao/multi_explore/multi-robot-slam/build/uwb_simulation -- -j8 -l8
+[1.093s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nangao/multi_explore/multi-robot-slam/build/uwb_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/nangao/multi_explore/multi-robot-slam/build/uwb_simulation
+[1.127s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nangao/multi_explore/multi-robot-slam/build/multi_robot_slam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nangao/multi_explore/multi-robot-slam/build/multi_robot_slam -- -j8 -l8
+[1.131s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nangao/multi_explore/multi-robot-slam/build/multi_robot_slam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/nangao/multi_explore/multi-robot-slam/build/multi_robot_slam
+[1.188s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(uwb_simulation)
+[1.188s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nangao/multi_explore/multi-robot-slam/build/uwb_simulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/nangao/multi_explore/multi-robot-slam/build/uwb_simulation
+[1.189s] Level 1:colcon.colcon_core.environment:checking '/home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation' for CMake module files
+[1.190s] Level 1:colcon.colcon_core.environment:checking '/home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation' for CMake config files
+[1.190s] Level 1:colcon.colcon_core.shell:create_environment_hook('uwb_simulation', 'cmake_prefix_path')
+[1.190s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/share/uwb_simulation/hook/cmake_prefix_path.ps1'
+[1.191s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/share/uwb_simulation/hook/cmake_prefix_path.dsv'
+[1.191s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/share/uwb_simulation/hook/cmake_prefix_path.sh'
+[1.192s] Level 1:colcon.colcon_core.environment:checking '/home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/lib'
+[1.192s] Level 1:colcon.colcon_core.shell:create_environment_hook('uwb_simulation', 'ld_library_path_lib')
+[1.192s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/share/uwb_simulation/hook/ld_library_path_lib.ps1'
+[1.193s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/share/uwb_simulation/hook/ld_library_path_lib.dsv'
+[1.194s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/share/uwb_simulation/hook/ld_library_path_lib.sh'
+[1.195s] Level 1:colcon.colcon_core.environment:checking '/home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/bin'
+[1.195s] Level 1:colcon.colcon_core.environment:checking '/home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/lib/pkgconfig/uwb_simulation.pc'
+[1.195s] Level 1:colcon.colcon_core.environment:checking '/home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/lib/python3.10/site-packages'
+[1.196s] Level 1:colcon.colcon_core.environment:checking '/home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/bin'
+[1.196s] INFO:colcon.colcon_core.shell:Creating package script '/home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/share/uwb_simulation/package.ps1'
+[1.198s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/share/uwb_simulation/package.dsv'
+[1.198s] INFO:colcon.colcon_core.shell:Creating package script '/home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/share/uwb_simulation/package.sh'
+[1.200s] INFO:colcon.colcon_core.shell:Creating package script '/home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/share/uwb_simulation/package.bash'
+[1.201s] INFO:colcon.colcon_core.shell:Creating package script '/home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/share/uwb_simulation/package.zsh'
+[1.202s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/share/colcon-core/packages/uwb_simulation)
+[1.203s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(uwb_simulation)
+[1.203s] Level 1:colcon.colcon_core.environment:checking '/home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation' for CMake module files
+[1.204s] Level 1:colcon.colcon_core.environment:checking '/home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation' for CMake config files
+[1.204s] Level 1:colcon.colcon_core.shell:create_environment_hook('uwb_simulation', 'cmake_prefix_path')
+[1.204s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/share/uwb_simulation/hook/cmake_prefix_path.ps1'
+[1.205s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/share/uwb_simulation/hook/cmake_prefix_path.dsv'
+[1.206s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/share/uwb_simulation/hook/cmake_prefix_path.sh'
+[1.207s] Level 1:colcon.colcon_core.environment:checking '/home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/lib'
+[1.207s] Level 1:colcon.colcon_core.shell:create_environment_hook('uwb_simulation', 'ld_library_path_lib')
+[1.207s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/share/uwb_simulation/hook/ld_library_path_lib.ps1'
+[1.209s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/share/uwb_simulation/hook/ld_library_path_lib.dsv'
+[1.211s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/share/uwb_simulation/hook/ld_library_path_lib.sh'
+[1.215s] Level 1:colcon.colcon_core.environment:checking '/home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/bin'
+[1.215s] Level 1:colcon.colcon_core.environment:checking '/home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/lib/pkgconfig/uwb_simulation.pc'
+[1.216s] Level 1:colcon.colcon_core.environment:checking '/home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/lib/python3.10/site-packages'
+[1.216s] Level 1:colcon.colcon_core.environment:checking '/home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/bin'
+[1.216s] INFO:colcon.colcon_core.shell:Creating package script '/home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/share/uwb_simulation/package.ps1'
+[1.220s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/share/uwb_simulation/package.dsv'
+[1.224s] INFO:colcon.colcon_core.shell:Creating package script '/home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/share/uwb_simulation/package.sh'
+[1.227s] INFO:colcon.colcon_core.shell:Creating package script '/home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/share/uwb_simulation/package.bash'
+[1.228s] INFO:colcon.colcon_core.shell:Creating package script '/home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/share/uwb_simulation/package.zsh'
+[1.228s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nangao/multi_explore/multi-robot-slam/install/uwb_simulation/share/colcon-core/packages/uwb_simulation)
+[1.230s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(multi_robot_slam)
+[1.230s] Level 1:colcon.colcon_core.environment:checking '/home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam' for CMake module files
+[1.231s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nangao/multi_explore/multi-robot-slam/build/multi_robot_slam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/nangao/multi_explore/multi-robot-slam/build/multi_robot_slam
+[1.231s] Level 1:colcon.colcon_core.environment:checking '/home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam' for CMake config files
+[1.231s] Level 1:colcon.colcon_core.shell:create_environment_hook('multi_robot_slam', 'cmake_prefix_path')
+[1.232s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/share/multi_robot_slam/hook/cmake_prefix_path.ps1'
+[1.232s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/share/multi_robot_slam/hook/cmake_prefix_path.dsv'
+[1.233s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/share/multi_robot_slam/hook/cmake_prefix_path.sh'
+[1.234s] Level 1:colcon.colcon_core.environment:checking '/home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/lib'
+[1.234s] Level 1:colcon.colcon_core.shell:create_environment_hook('multi_robot_slam', 'ld_library_path_lib')
+[1.234s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/share/multi_robot_slam/hook/ld_library_path_lib.ps1'
+[1.235s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/share/multi_robot_slam/hook/ld_library_path_lib.dsv'
+[1.235s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/share/multi_robot_slam/hook/ld_library_path_lib.sh'
+[1.236s] Level 1:colcon.colcon_core.environment:checking '/home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/bin'
+[1.236s] Level 1:colcon.colcon_core.environment:checking '/home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/lib/pkgconfig/multi_robot_slam.pc'
+[1.236s] Level 1:colcon.colcon_core.environment:checking '/home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/lib/python3.10/site-packages'
+[1.237s] Level 1:colcon.colcon_core.environment:checking '/home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/bin'
+[1.237s] INFO:colcon.colcon_core.shell:Creating package script '/home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/share/multi_robot_slam/package.ps1'
+[1.238s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/share/multi_robot_slam/package.dsv'
+[1.238s] INFO:colcon.colcon_core.shell:Creating package script '/home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/share/multi_robot_slam/package.sh'
+[1.239s] INFO:colcon.colcon_core.shell:Creating package script '/home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/share/multi_robot_slam/package.bash'
+[1.239s] INFO:colcon.colcon_core.shell:Creating package script '/home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/share/multi_robot_slam/package.zsh'
+[1.239s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/share/colcon-core/packages/multi_robot_slam)
+[1.240s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(multi_robot_slam)
+[1.240s] Level 1:colcon.colcon_core.environment:checking '/home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam' for CMake module files
+[1.240s] Level 1:colcon.colcon_core.environment:checking '/home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam' for CMake config files
+[1.241s] Level 1:colcon.colcon_core.shell:create_environment_hook('multi_robot_slam', 'cmake_prefix_path')
+[1.241s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/share/multi_robot_slam/hook/cmake_prefix_path.ps1'
+[1.242s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/share/multi_robot_slam/hook/cmake_prefix_path.dsv'
+[1.242s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/share/multi_robot_slam/hook/cmake_prefix_path.sh'
+[1.243s] Level 1:colcon.colcon_core.environment:checking '/home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/lib'
+[1.243s] Level 1:colcon.colcon_core.shell:create_environment_hook('multi_robot_slam', 'ld_library_path_lib')
+[1.243s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/share/multi_robot_slam/hook/ld_library_path_lib.ps1'
+[1.243s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/share/multi_robot_slam/hook/ld_library_path_lib.dsv'
+[1.244s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/share/multi_robot_slam/hook/ld_library_path_lib.sh'
+[1.244s] Level 1:colcon.colcon_core.environment:checking '/home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/bin'
+[1.244s] Level 1:colcon.colcon_core.environment:checking '/home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/lib/pkgconfig/multi_robot_slam.pc'
+[1.244s] Level 1:colcon.colcon_core.environment:checking '/home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/lib/python3.10/site-packages'
+[1.244s] Level 1:colcon.colcon_core.environment:checking '/home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/bin'
+[1.245s] INFO:colcon.colcon_core.shell:Creating package script '/home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/share/multi_robot_slam/package.ps1'
+[1.245s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/share/multi_robot_slam/package.dsv'
+[1.246s] INFO:colcon.colcon_core.shell:Creating package script '/home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/share/multi_robot_slam/package.sh'
+[1.246s] INFO:colcon.colcon_core.shell:Creating package script '/home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/share/multi_robot_slam/package.bash'
+[1.246s] INFO:colcon.colcon_core.shell:Creating package script '/home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/share/multi_robot_slam/package.zsh'
+[1.247s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/share/colcon-core/packages/multi_robot_slam)
+[1.247s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.248s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.248s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.248s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.265s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.266s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.266s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.298s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.298s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nangao/multi_explore/multi-robot-slam/install/local_setup.ps1'
+[1.299s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/nangao/multi_explore/multi-robot-slam/install/_local_setup_util_ps1.py'
+[1.301s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nangao/multi_explore/multi-robot-slam/install/setup.ps1'
+[1.303s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nangao/multi_explore/multi-robot-slam/install/local_setup.sh'
+[1.305s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/nangao/multi_explore/multi-robot-slam/install/_local_setup_util_sh.py'
+[1.306s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nangao/multi_explore/multi-robot-slam/install/setup.sh'
+[1.307s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nangao/multi_explore/multi-robot-slam/install/local_setup.bash'
+[1.307s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nangao/multi_explore/multi-robot-slam/install/setup.bash'
+[1.309s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nangao/multi_explore/multi-robot-slam/install/local_setup.zsh'
+[1.310s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nangao/multi_explore/multi-robot-slam/install/setup.zsh'

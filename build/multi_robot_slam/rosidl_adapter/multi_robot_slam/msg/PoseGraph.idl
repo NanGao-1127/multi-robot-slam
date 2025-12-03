@@ -1,0 +1,33 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from multi_robot_slam/msg/PoseGraph.msg
+// generated code does not contain a copyright notice
+
+#include "multi_robot_slam/msg/PoseGraphEdge.idl"
+#include "multi_robot_slam/msg/PoseGraphNode.idl"
+#include "std_msgs/msg/Header.idl"
+
+module multi_robot_slam {
+  module msg {
+    @verbatim (language="comment", text=
+      "Complete pose graph message")
+    struct PoseGraph {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "All nodes in the graph")
+      sequence<multi_robot_slam::msg::PoseGraphNode> nodes;
+
+      @verbatim (language="comment", text=
+        "All edges in the graph")
+      sequence<multi_robot_slam::msg::PoseGraphEdge> edges;
+
+      @verbatim (language="comment", text=
+        "Optimization status")
+      boolean is_optimized;
+
+      double optimization_cost;
+
+      uint32 num_iterations;
+    };
+  };
+};

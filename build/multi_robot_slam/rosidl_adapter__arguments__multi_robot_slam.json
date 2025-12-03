@@ -1,0 +1,9 @@
+{
+  "package_name": "multi_robot_slam",
+  "non_idl_tuples": [
+    "/home/nangao/multi_explore/multi-robot-slam/src/multi_robot_slam:msg/PoseGraphNode.msg",
+    "/home/nangao/multi_explore/multi-robot-slam/src/multi_robot_slam:msg/PoseGraphEdge.msg",
+    "/home/nangao/multi_explore/multi-robot-slam/src/multi_robot_slam:msg/PoseGraph.msg",
+    "/home/nangao/multi_explore/multi-robot-slam/src/multi_robot_slam:msg/MapMergeStatus.msg"
+  ]
+}

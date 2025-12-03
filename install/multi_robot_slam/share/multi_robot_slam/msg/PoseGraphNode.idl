@@ -1,0 +1,38 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from multi_robot_slam/msg/PoseGraphNode.msg
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Time.idl"
+#include "geometry_msgs/msg/Pose.idl"
+#include "std_msgs/msg/Header.idl"
+
+module multi_robot_slam {
+  module msg {
+    typedef double double__36[36];
+    @verbatim (language="comment", text=
+      "Pose graph node (vertex) message")
+    struct PoseGraphNode {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "Unique node ID")
+      uint32 node_id;
+
+      @verbatim (language="comment", text=
+        "Robot that created this node")
+      string robot_id;
+
+      @verbatim (language="comment", text=
+        "Pose of the node")
+      geometry_msgs::msg::Pose pose;
+
+      @verbatim (language="comment", text=
+        "Covariance (6x6 flattened to 36 elements)")
+      double__36 covariance;
+
+      @verbatim (language="comment", text=
+        "Timestamp when this pose was recorded")
+      builtin_interfaces::msg::Time timestamp;
+    };
+  };
+};

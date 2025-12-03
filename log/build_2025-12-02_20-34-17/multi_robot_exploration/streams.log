@@ -1,0 +1,52 @@
+[0.035s] Invoking command in '/home/nangao/multi_explore/multi-robot-slam/build/multi_robot_exploration': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/nangao/multi_explore/multi-robot-slam/src/multi_robot_exploration -DCMAKE_INSTALL_PREFIX=/home/nangao/multi_explore/multi-robot-slam/install/multi_robot_exploration
+[0.122s] -- The C compiler identification is GNU 11.4.0
+[0.205s] -- The CXX compiler identification is GNU 11.4.0
+[0.219s] -- Detecting C compiler ABI info
+[0.316s] -- Detecting C compiler ABI info - done
+[0.327s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.327s] -- Detecting C compile features
+[0.327s] -- Detecting C compile features - done
+[0.331s] -- Detecting CXX compiler ABI info
+[0.470s] -- Detecting CXX compiler ABI info - done
+[0.485s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.487s] -- Detecting CXX compile features
+[0.489s] -- Detecting CXX compile features - done
+[0.493s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.708s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.839s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.936s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.938s] -- Added test 'lint_cmake' to check CMake code style
+[0.939s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.940s] -- Added test 'xmllint' to check XML markup files
+[0.944s] -- Configuring done
+[0.949s] -- Generating done
+[0.957s] -- Build files have been written to: /home/nangao/multi_explore/multi-robot-slam/build/multi_robot_exploration
+[0.969s] Invoked command in '/home/nangao/multi_explore/multi-robot-slam/build/multi_robot_exploration' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/nangao/multi_explore/multi-robot-slam/src/multi_robot_exploration -DCMAKE_INSTALL_PREFIX=/home/nangao/multi_explore/multi-robot-slam/install/multi_robot_exploration
+[0.996s] Invoking command in '/home/nangao/multi_explore/multi-robot-slam/build/multi_robot_exploration': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nangao/multi_explore/multi-robot-slam/build/multi_robot_exploration -- -j8 -l8
+[1.057s] Invoked command in '/home/nangao/multi_explore/multi-robot-slam/build/multi_robot_exploration' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nangao/multi_explore/multi-robot-slam/build/multi_robot_exploration -- -j8 -l8
+[1.071s] Invoking command in '/home/nangao/multi_explore/multi-robot-slam/build/multi_robot_exploration': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/nangao/multi_explore/multi-robot-slam/build/multi_robot_exploration
+[1.078s] -- Install configuration: ""
+[1.079s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_exploration/lib/multi_robot_exploration/frontier_explorer.py
+[1.079s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_exploration/lib/multi_robot_exploration/task_allocator.py
+[1.079s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_exploration/lib/multi_robot_exploration/collision_avoider.py
+[1.079s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_exploration/lib/multi_robot_exploration/exploration_coordinator.py
+[1.079s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_exploration/share/multi_robot_exploration/launch
+[1.079s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_exploration/share/multi_robot_exploration/launch/exploration.launch.py
+[1.080s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_exploration/share/multi_robot_exploration/config
+[1.080s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_exploration/share/multi_robot_exploration/config/nav2_params.yaml
+[1.080s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_exploration/share/ament_index/resource_index/package_run_dependencies/multi_robot_exploration
+[1.080s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_exploration/share/ament_index/resource_index/parent_prefix_path/multi_robot_exploration
+[1.080s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_exploration/share/multi_robot_exploration/environment/ament_prefix_path.sh
+[1.080s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_exploration/share/multi_robot_exploration/environment/ament_prefix_path.dsv
+[1.080s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_exploration/share/multi_robot_exploration/environment/path.sh
+[1.080s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_exploration/share/multi_robot_exploration/environment/path.dsv
+[1.081s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_exploration/share/multi_robot_exploration/local_setup.bash
+[1.081s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_exploration/share/multi_robot_exploration/local_setup.sh
+[1.081s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_exploration/share/multi_robot_exploration/local_setup.zsh
+[1.081s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_exploration/share/multi_robot_exploration/local_setup.dsv
+[1.081s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_exploration/share/multi_robot_exploration/package.dsv
+[1.081s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_exploration/share/ament_index/resource_index/packages/multi_robot_exploration
+[1.081s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_exploration/share/multi_robot_exploration/cmake/multi_robot_explorationConfig.cmake
+[1.081s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_exploration/share/multi_robot_exploration/cmake/multi_robot_explorationConfig-version.cmake
+[1.081s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_exploration/share/multi_robot_exploration/package.xml
+[1.087s] Invoked command in '/home/nangao/multi_explore/multi-robot-slam/build/multi_robot_exploration' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/nangao/multi_explore/multi-robot-slam/build/multi_robot_exploration
