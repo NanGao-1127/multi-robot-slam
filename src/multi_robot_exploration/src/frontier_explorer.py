@@ -38,7 +38,7 @@ class FrontierExplorer(Node):
         self.declare_parameter('robot_name', 'robot1')
         self.declare_parameter('min_frontier_size', 5)
         self.declare_parameter('frontier_detection_rate', 2.0)
-        self.declare_parameter('use_sim_time', True)
+        # 不再声明 use_sim_time，由 launch 文件处理
         
         self.robot_name = self.get_parameter('robot_name').value
         self.min_frontier_size = self.get_parameter('min_frontier_size').value
@@ -150,6 +150,7 @@ class FrontierExplorer(Node):
             # Publish best frontier
             if self.frontiers:
                 self._publish_best_frontier()
+                self.get_logger().info(f'Found {len(self.frontiers)} frontiers')
 
     def _cluster_frontiers(self, cells: List[Tuple[int, int]], 
                           cluster_dist: int) -> List[List[Tuple[int, int]]]:
@@ -157,6 +158,7 @@ class FrontierExplorer(Node):
         if not cells:
             return []
         
+        cells_set = set(cells)
         visited = set()
         clusters = []
         
@@ -178,7 +180,7 @@ class FrontierExplorer(Node):
                 for dy in range(-cluster_dist, cluster_dist + 1):
                     for dx in range(-cluster_dist, cluster_dist + 1):
                         neighbor = (c[0] + dy, c[1] + dx)
-                        if neighbor in cells and neighbor not in visited:
+                        if neighbor in cells_set and neighbor not in visited:
                             stack.append(neighbor)
             
             if cluster:
@@ -209,7 +211,7 @@ class FrontierExplorer(Node):
         if best_frontier:
             msg = PoseStamped()
             msg.header.stamp = self.get_clock().now().to_msg()
-            msg.header.frame_id = 'map'
+            msg.header.frame_id = f'{self.robot_name}/map'
             msg.pose.position.x = best_frontier.centroid_x
             msg.pose.position.y = best_frontier.centroid_y
             msg.pose.orientation.w = 1.0

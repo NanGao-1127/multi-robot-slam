@@ -10,6 +10,8 @@ def generate_launch_description():
     use_sim_time = LaunchConfiguration('use_sim_time', default='true')
     
     # SLAM Toolbox for robot1
+    # 关键：使用 /map:=map 将绝对路径 /map 重映射到相对路径 map
+    # 这样在 namespace robot1 下就会变成 /robot1/map
     slam_robot1 = Node(
         package='slam_toolbox',
         executable='async_slam_toolbox_node',
@@ -20,18 +22,23 @@ def generate_launch_description():
             'odom_frame': 'robot1/odom',
             'base_frame': 'robot1/base_footprint',
             'map_frame': 'robot1/map',
-            'scan_topic': '/robot1/scan',
+            'scan_topic': 'scan',
             'mode': 'mapping',
             'resolution': 0.05,
             'max_laser_range': 10.0,
-            'minimum_travel_distance': 0.2,
-            'minimum_travel_heading': 0.15,
-            'map_update_interval': 2.0,
+            'minimum_travel_distance': 0.1,
+            'minimum_travel_heading': 0.1,
+            'map_update_interval': 1.0,
             'transform_timeout': 0.5,
             'tf_buffer_duration': 30.0,
+            'stack_size_to_use': 40000000,
+            'enable_interactive_mode': False,
         }],
         remappings=[
-            ('scan', '/robot1/scan'),
+            ('/map', 'map'),  # 关键！将绝对路径/map重映射到相对路径map -> /robot1/map
+            ('/map_metadata', 'map_metadata'),
+            ('/slam_toolbox/scan_visualization', 'slam_toolbox/scan_visualization'),
+            ('/slam_toolbox/graph_visualization', 'slam_toolbox/graph_visualization'),
         ],
         output='screen'
     )
@@ -47,25 +54,30 @@ def generate_launch_description():
             'odom_frame': 'robot2/odom',
             'base_frame': 'robot2/base_footprint',
             'map_frame': 'robot2/map',
-            'scan_topic': '/robot2/scan',
+            'scan_topic': 'scan',
             'mode': 'mapping',
             'resolution': 0.05,
             'max_laser_range': 10.0,
-            'minimum_travel_distance': 0.2,
-            'minimum_travel_heading': 0.15,
-            'map_update_interval': 2.0,
+            'minimum_travel_distance': 0.1,
+            'minimum_travel_heading': 0.1,
+            'map_update_interval': 1.0,
             'transform_timeout': 0.5,
             'tf_buffer_duration': 30.0,
+            'stack_size_to_use': 40000000,
+            'enable_interactive_mode': False,
         }],
         remappings=[
-            ('scan', '/robot2/scan'),
+            ('/map', 'map'),  # 关键！-> /robot2/map
+            ('/map_metadata', 'map_metadata'),
+            ('/slam_toolbox/scan_visualization', 'slam_toolbox/scan_visualization'),
+            ('/slam_toolbox/graph_visualization', 'slam_toolbox/graph_visualization'),
         ],
         output='screen'
     )
     
     # Pose graph optimizer
     pose_graph = TimerAction(
-        period=3.0,
+        period=5.0,
         actions=[
             Node(
                 package='multi_robot_slam',
@@ -79,7 +91,7 @@ def generate_launch_description():
     
     # Map merger
     map_merger = TimerAction(
-        period=3.0,
+        period=5.0,
         actions=[
             Node(
                 package='multi_robot_slam',
@@ -93,7 +105,7 @@ def generate_launch_description():
     
     # TF publisher
     tf_pub = TimerAction(
-        period=3.0,
+        period=5.0,
         actions=[
             Node(
                 package='multi_robot_slam',
@@ -107,7 +119,7 @@ def generate_launch_description():
     
     # SLAM coordinator
     coordinator = TimerAction(
-        period=3.0,
+        period=5.0,
         actions=[
             Node(
                 package='multi_robot_slam',

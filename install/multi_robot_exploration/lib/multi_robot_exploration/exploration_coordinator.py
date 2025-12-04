@@ -50,7 +50,7 @@ class ExplorationCoordinator(Node):
         self.declare_parameter('min_frontier_size', 8)
         self.declare_parameter('min_goal_distance', 0.8)
         self.declare_parameter('goal_timeout', 60.0)
-        self.declare_parameter('use_sim_time', True)
+        # 不再声明 use_sim_time
         
         self.robot_names = self.get_parameter('robot_names').value
         self.exploration_rate = self.get_parameter('exploration_rate').value
@@ -131,7 +131,7 @@ class ExplorationCoordinator(Node):
     def exploration_step(self):
         with self.lock:
             if self.global_map is None:
-                # Try to use individual robot maps
+                self._publish_status("Waiting for global map...")
                 return
             
             # Find frontiers
@@ -244,7 +244,7 @@ class ExplorationCoordinator(Node):
         
         if NAV2_AVAILABLE and robot_name in self.nav_clients:
             goal_msg = NavigateToPose.Goal()
-            goal_msg.pose.header.frame_id = 'map'
+            goal_msg.pose.header.frame_id = f'{robot_name}/map'
             goal_msg.pose.header.stamp = self.get_clock().now().to_msg()
             goal_msg.pose.pose.position.x = goal[0]
             goal_msg.pose.pose.position.y = goal[1]
@@ -256,8 +256,13 @@ class ExplorationCoordinator(Node):
                     feedback_callback=lambda fb, name=robot_name: self._nav_feedback(fb, name))
                 future.add_done_callback(
                     lambda f, name=robot_name: self._goal_response(f, name))
-        
-        self.get_logger().info(f'{robot_name} -> ({goal[0]:.2f}, {goal[1]:.2f})')
+                self.get_logger().info(f'{robot_name} -> ({goal[0]:.2f}, {goal[1]:.2f})')
+            else:
+                self.get_logger().warn(f'Nav2 not available for {robot_name}')
+                robot.is_navigating = False
+        else:
+            self.get_logger().warn(f'Nav2 not available')
+            robot.is_navigating = False
 
     def _goal_response(self, future, robot_name: str):
         goal_handle = future.result()

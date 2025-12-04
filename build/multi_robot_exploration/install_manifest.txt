@@ -2,6 +2,7 @@
 /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_exploration/lib/multi_robot_exploration/task_allocator.py
 /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_exploration/lib/multi_robot_exploration/collision_avoider.py
 /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_exploration/lib/multi_robot_exploration/exploration_coordinator.py
+/home/nangao/multi_explore/multi-robot-slam/install/multi_robot_exploration/lib/multi_robot_exploration/simple_explorer.py
 /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_exploration/share/multi_robot_exploration/launch/exploration.launch.py
 /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_exploration/share/multi_robot_exploration/config/nav2_params.yaml
 /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_exploration/share/ament_index/resource_index/package_run_dependencies/multi_robot_exploration

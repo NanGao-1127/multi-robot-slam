@@ -1,0 +1,38 @@
+[0.030s] Invoking command in '/home/nangao/multi_explore/multi-robot-slam/build/multi_robot_exploration': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nangao/multi_explore/multi-robot-slam/build/multi_robot_exploration -- -j8 -l8
+[0.104s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.372s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.489s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.490s] -- Added test 'lint_cmake' to check CMake code style
+[0.491s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.493s] -- Added test 'xmllint' to check XML markup files
+[0.498s] -- Configuring done
+[0.543s] -- Generating done
+[0.550s] -- Build files have been written to: /home/nangao/multi_explore/multi-robot-slam/build/multi_robot_exploration
+[0.587s] Invoked command in '/home/nangao/multi_explore/multi-robot-slam/build/multi_robot_exploration' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nangao/multi_explore/multi-robot-slam/build/multi_robot_exploration -- -j8 -l8
+[0.609s] Invoking command in '/home/nangao/multi_explore/multi-robot-slam/build/multi_robot_exploration': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/nangao/multi_explore/multi-robot-slam/build/multi_robot_exploration
+[0.617s] -- Install configuration: ""
+[0.618s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_exploration/lib/multi_robot_exploration/frontier_explorer.py
+[0.618s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_exploration/lib/multi_robot_exploration/task_allocator.py
+[0.618s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_exploration/lib/multi_robot_exploration/collision_avoider.py
+[0.618s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_exploration/lib/multi_robot_exploration/exploration_coordinator.py
+[0.618s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_exploration/lib/multi_robot_exploration/simple_explorer.py
+[0.619s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_exploration/share/multi_robot_exploration/launch
+[0.619s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_exploration/share/multi_robot_exploration/launch/exploration.launch.py
+[0.619s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_exploration/share/multi_robot_exploration/config
+[0.619s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_exploration/share/multi_robot_exploration/config/nav2_params.yaml
+[0.619s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_exploration/share/ament_index/resource_index/package_run_dependencies/multi_robot_exploration
+[0.619s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_exploration/share/ament_index/resource_index/parent_prefix_path/multi_robot_exploration
+[0.619s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_exploration/share/multi_robot_exploration/environment/ament_prefix_path.sh
+[0.619s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_exploration/share/multi_robot_exploration/environment/ament_prefix_path.dsv
+[0.620s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_exploration/share/multi_robot_exploration/environment/path.sh
+[0.620s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_exploration/share/multi_robot_exploration/environment/path.dsv
+[0.620s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_exploration/share/multi_robot_exploration/local_setup.bash
+[0.620s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_exploration/share/multi_robot_exploration/local_setup.sh
+[0.621s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_exploration/share/multi_robot_exploration/local_setup.zsh
+[0.621s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_exploration/share/multi_robot_exploration/local_setup.dsv
+[0.621s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_exploration/share/multi_robot_exploration/package.dsv
+[0.621s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_exploration/share/ament_index/resource_index/packages/multi_robot_exploration
+[0.621s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_exploration/share/multi_robot_exploration/cmake/multi_robot_explorationConfig.cmake
+[0.621s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_exploration/share/multi_robot_exploration/cmake/multi_robot_explorationConfig-version.cmake
+[0.622s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_exploration/share/multi_robot_exploration/package.xml
+[0.626s] Invoked command in '/home/nangao/multi_explore/multi-robot-slam/build/multi_robot_exploration' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/nangao/multi_explore/multi-robot-slam/build/multi_robot_exploration

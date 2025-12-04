@@ -48,6 +48,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     "/home/nangao/multi_explore/multi-robot-slam/src/multi_robot_exploration/src/task_allocator.py"
     "/home/nangao/multi_explore/multi-robot-slam/src/multi_robot_exploration/src/collision_avoider.py"
     "/home/nangao/multi_explore/multi-robot-slam/src/multi_robot_exploration/src/exploration_coordinator.py"
+    "/home/nangao/multi_explore/multi-robot-slam/src/multi_robot_exploration/src/simple_explorer.py"
     )
 endif()
 

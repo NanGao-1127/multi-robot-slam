@@ -25,48 +25,43 @@ class MultiRobotTFPublisher(Node):
         self.tf_broadcaster = TransformBroadcaster(self)
         self.static_tf_broadcaster = StaticTransformBroadcaster(self)
         
-        # Publish static world frame
+        # Publish static world frame connections
         self.publish_static_transforms()
         
-        odom_qos = QoSProfile(
-            reliability=ReliabilityPolicy.BEST_EFFORT,
-            durability=DurabilityPolicy.VOLATILE,
-            depth=10)
-        
-        self.odom_subs = {}
-        for robot_name in self.robot_names:
-            self.odom_subs[robot_name] = self.create_subscription(
-                Odometry, f'/{robot_name}/odom',
-                lambda msg, name=robot_name: self.odom_callback(msg, name), odom_qos)
+        # Timer to republish static transforms periodically (for late subscribers)
+        self.static_timer = self.create_timer(1.0, self.publish_static_transforms)
         
         self.get_logger().info(f'MultiRobotTFPublisher initialized for {self.robot_names}')
 
     def publish_static_transforms(self):
         transforms = []
+        now = self.get_clock().now().to_msg()
         
-        # World to map (identity for now)
-        t = TransformStamped()
-        t.header.stamp = self.get_clock().now().to_msg()
-        t.header.frame_id = 'world'
-        t.child_frame_id = 'map'
-        t.transform.rotation.w = 1.0
-        transforms.append(t)
+        # World -> robot1/map (identity transform)
+        t1 = TransformStamped()
+        t1.header.stamp = now
+        t1.header.frame_id = 'world'
+        t1.child_frame_id = 'robot1/map'
+        t1.transform.rotation.w = 1.0
+        transforms.append(t1)
         
-        # Initial robot odom frames (will be updated by SLAM)
-        for i, robot_name in enumerate(self.robot_names):
-            t = TransformStamped()
-            t.header.stamp = self.get_clock().now().to_msg()
-            t.header.frame_id = 'world'
-            t.child_frame_id = f'{robot_name}/odom'
-            t.transform.rotation.w = 1.0
-            transforms.append(t)
+        # World -> robot2/map (identity transform)
+        t2 = TransformStamped()
+        t2.header.stamp = now
+        t2.header.frame_id = 'world'
+        t2.child_frame_id = 'robot2/map'
+        t2.transform.rotation.w = 1.0
+        transforms.append(t2)
+        
+        # World -> map (for global map compatibility)
+        t3 = TransformStamped()
+        t3.header.stamp = now
+        t3.header.frame_id = 'world'
+        t3.child_frame_id = 'map'
+        t3.transform.rotation.w = 1.0
+        transforms.append(t3)
         
         self.static_tf_broadcaster.sendTransform(transforms)
-
-    def odom_callback(self, msg: Odometry, robot_name: str):
-        # The diff_drive plugin already publishes odom->base_footprint
-        # We just need to ensure world->odom is published
-        pass
 
 
 def main(args=None):

@@ -42,13 +42,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 18,
+				"line" : 19,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 0,
-				"line" : 29,
+				"line" : 30,
 				"parent" : 0
 			},
 			{
@@ -238,7 +238,8 @@
 				"src/frontier_explorer.py",
 				"src/task_allocator.py",
 				"src/collision_avoider.py",
-				"src/exploration_coordinator.py"
+				"src/exploration_coordinator.py",
+				"src/simple_explorer.py"
 			],
 			"type" : "file"
 		},

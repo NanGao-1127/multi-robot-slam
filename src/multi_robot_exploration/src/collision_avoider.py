@@ -24,7 +24,7 @@ class CollisionAvoider(Node):
         self.declare_parameter('safety_distance', 0.5)
         self.declare_parameter('slowdown_distance', 1.0)
         self.declare_parameter('check_rate', 20.0)
-        self.declare_parameter('use_sim_time', True)
+        # 不再声明 use_sim_time
         
         self.robot_names = self.get_parameter('robot_names').value
         self.safety_distance = self.get_parameter('safety_distance').value
@@ -87,13 +87,16 @@ class CollisionAvoider(Node):
             if len(self.robot_positions) < 2:
                 return
             
+            # Reset scales
+            for name in self.robot_names:
+                self.velocity_scales[name] = 1.0
+            
             # Check distances between all robot pairs
             for i, robot1 in enumerate(self.robot_names):
                 if robot1 not in self.robot_positions:
                     continue
                 
                 pos1 = self.robot_positions[robot1]
-                min_dist = float('inf')
                 
                 for robot2 in self.robot_names[i+1:]:
                     if robot2 not in self.robot_positions:
@@ -103,8 +106,6 @@ class CollisionAvoider(Node):
                     dist = math.sqrt(
                         (pos1.x - pos2.x)**2 + 
                         (pos1.y - pos2.y)**2)
-                    
-                    min_dist = min(min_dist, dist)
                     
                     # Apply slowdown for both robots
                     if dist < self.safety_distance:
@@ -120,10 +121,6 @@ class CollisionAvoider(Node):
                             self.velocity_scales.get(robot1, 1.0), scale)
                         self.velocity_scales[robot2] = min(
                             self.velocity_scales.get(robot2, 1.0), scale)
-                    else:
-                        # Reset to normal speed
-                        self.velocity_scales[robot1] = 1.0
-                        self.velocity_scales[robot2] = 1.0
 
 
 def main(args=None):

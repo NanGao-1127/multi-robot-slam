@@ -1,0 +1,213 @@
+[0.018s] Invoking command in '/home/nangao/multi_explore/multi-robot-slam/build/multi_robot_slam': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nangao/multi_explore/multi-robot-slam/build/multi_robot_slam -- -j8 -l8
+[0.073s] [  5%] Built target multi_robot_slam__cpp
+[0.073s] [ 12%] Built target multi_robot_slam__rosidl_generator_c
+[0.086s] [ 12%] Built target ament_cmake_python_copy_multi_robot_slam
+[0.102s] [ 23%] Built target multi_robot_slam__rosidl_typesupport_introspection_cpp
+[0.103s] [ 34%] Built target multi_robot_slam__rosidl_typesupport_cpp
+[0.106s] [ 45%] Built target multi_robot_slam__rosidl_typesupport_fastrtps_cpp
+[0.121s] [ 56%] Built target multi_robot_slam__rosidl_typesupport_introspection_c
+[0.122s] [ 76%] Built target multi_robot_slam__rosidl_typesupport_fastrtps_c
+[0.123s] [ 78%] Built target multi_robot_slam__rosidl_typesupport_c
+[0.146s] [ 78%] Built target multi_robot_slam
+[0.172s] [ 80%] Built target multi_robot_slam__py
+[0.194s] [ 89%] Built target multi_robot_slam__rosidl_generator_py
+[0.218s] [ 92%] Built target multi_robot_slam__rosidl_typesupport_fastrtps_c__pyext
+[0.232s] [ 96%] Built target multi_robot_slam__rosidl_typesupport_c__pyext
+[0.232s] [100%] Built target multi_robot_slam__rosidl_typesupport_introspection_c__pyext
+[0.294s] running egg_info
+[0.295s] writing multi_robot_slam.egg-info/PKG-INFO
+[0.295s] writing dependency_links to multi_robot_slam.egg-info/dependency_links.txt
+[0.295s] writing top-level names to multi_robot_slam.egg-info/top_level.txt
+[0.297s] reading manifest file 'multi_robot_slam.egg-info/SOURCES.txt'
+[0.298s] writing manifest file 'multi_robot_slam.egg-info/SOURCES.txt'
+[0.324s] [100%] Built target ament_cmake_python_build_multi_robot_slam_egg
+[0.335s] Invoked command in '/home/nangao/multi_explore/multi-robot-slam/build/multi_robot_slam' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nangao/multi_explore/multi-robot-slam/build/multi_robot_slam -- -j8 -l8
+[0.348s] Invoking command in '/home/nangao/multi_explore/multi-robot-slam/build/multi_robot_slam': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/nangao/multi_explore/multi-robot-slam/build/multi_robot_slam
+[0.354s] -- Install configuration: ""
+[0.354s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/share/ament_index/resource_index/rosidl_interfaces/multi_robot_slam
+[0.354s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/include/multi_robot_slam/multi_robot_slam
+[0.354s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/include/multi_robot_slam/multi_robot_slam/msg
+[0.355s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/include/multi_robot_slam/multi_robot_slam/msg/rosidl_generator_c__visibility_control.h
+[0.355s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/include/multi_robot_slam/multi_robot_slam/msg/map_merge_status.h
+[0.355s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/include/multi_robot_slam/multi_robot_slam/msg/detail
+[0.355s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/include/multi_robot_slam/multi_robot_slam/msg/detail/pose_graph_edge__functions.c
+[0.355s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/include/multi_robot_slam/multi_robot_slam/msg/detail/pose_graph_edge__functions.h
+[0.355s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/include/multi_robot_slam/multi_robot_slam/msg/detail/pose_graph_node__functions.c
+[0.355s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/include/multi_robot_slam/multi_robot_slam/msg/detail/map_merge_status__functions.h
+[0.355s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/include/multi_robot_slam/multi_robot_slam/msg/detail/pose_graph_node__functions.h
+[0.355s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/include/multi_robot_slam/multi_robot_slam/msg/detail/pose_graph_node__type_support.h
+[0.355s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/include/multi_robot_slam/multi_robot_slam/msg/detail/pose_graph_edge__struct.h
+[0.355s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/include/multi_robot_slam/multi_robot_slam/msg/detail/pose_graph__functions.h
+[0.355s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/include/multi_robot_slam/multi_robot_slam/msg/detail/pose_graph__functions.c
+[0.356s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/include/multi_robot_slam/multi_robot_slam/msg/detail/map_merge_status__struct.h
+[0.356s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/include/multi_robot_slam/multi_robot_slam/msg/detail/map_merge_status__type_support.h
+[0.356s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/include/multi_robot_slam/multi_robot_slam/msg/detail/pose_graph__struct.h
+[0.356s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/include/multi_robot_slam/multi_robot_slam/msg/detail/pose_graph_edge__type_support.h
+[0.356s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/include/multi_robot_slam/multi_robot_slam/msg/detail/pose_graph_node__struct.h
+[0.356s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/include/multi_robot_slam/multi_robot_slam/msg/detail/map_merge_status__functions.c
+[0.356s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/include/multi_robot_slam/multi_robot_slam/msg/detail/pose_graph__type_support.h
+[0.357s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/include/multi_robot_slam/multi_robot_slam/msg/pose_graph.h
+[0.357s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/include/multi_robot_slam/multi_robot_slam/msg/pose_graph_node.h
+[0.357s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/include/multi_robot_slam/multi_robot_slam/msg/pose_graph_edge.h
+[0.358s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/share/multi_robot_slam/environment/library_path.sh
+[0.358s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/share/multi_robot_slam/environment/library_path.dsv
+[0.358s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/lib/libmulti_robot_slam__rosidl_generator_c.so
+[0.358s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/include/multi_robot_slam/multi_robot_slam
+[0.358s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/include/multi_robot_slam/multi_robot_slam/msg
+[0.358s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/include/multi_robot_slam/multi_robot_slam/msg/detail
+[0.358s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/include/multi_robot_slam/multi_robot_slam/msg/detail/pose_graph_edge__rosidl_typesupport_fastrtps_c.h
+[0.358s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/include/multi_robot_slam/multi_robot_slam/msg/detail/pose_graph__rosidl_typesupport_fastrtps_c.h
+[0.358s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/include/multi_robot_slam/multi_robot_slam/msg/detail/pose_graph_node__rosidl_typesupport_fastrtps_c.h
+[0.358s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/include/multi_robot_slam/multi_robot_slam/msg/detail/map_merge_status__rosidl_typesupport_fastrtps_c.h
+[0.358s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/include/multi_robot_slam/multi_robot_slam/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.359s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/lib/libmulti_robot_slam__rosidl_typesupport_fastrtps_c.so
+[0.359s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/include/multi_robot_slam/multi_robot_slam
+[0.359s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/include/multi_robot_slam/multi_robot_slam/msg
+[0.359s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/include/multi_robot_slam/multi_robot_slam/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.359s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/include/multi_robot_slam/multi_robot_slam/msg/detail
+[0.359s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/include/multi_robot_slam/multi_robot_slam/msg/detail/pose_graph_node__rosidl_typesupport_introspection_c.h
+[0.359s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/include/multi_robot_slam/multi_robot_slam/msg/detail/pose_graph_edge__type_support.c
+[0.359s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/include/multi_robot_slam/multi_robot_slam/msg/detail/pose_graph__rosidl_typesupport_introspection_c.h
+[0.359s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/include/multi_robot_slam/multi_robot_slam/msg/detail/pose_graph__type_support.c
+[0.359s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/include/multi_robot_slam/multi_robot_slam/msg/detail/pose_graph_node__type_support.c
+[0.359s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/include/multi_robot_slam/multi_robot_slam/msg/detail/map_merge_status__type_support.c
+[0.359s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/include/multi_robot_slam/multi_robot_slam/msg/detail/map_merge_status__rosidl_typesupport_introspection_c.h
+[0.360s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/include/multi_robot_slam/multi_robot_slam/msg/detail/pose_graph_edge__rosidl_typesupport_introspection_c.h
+[0.360s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/lib/libmulti_robot_slam__rosidl_typesupport_introspection_c.so
+[0.360s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/lib/libmulti_robot_slam__rosidl_typesupport_c.so
+[0.360s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/include/multi_robot_slam/multi_robot_slam
+[0.360s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/include/multi_robot_slam/multi_robot_slam/msg
+[0.360s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/include/multi_robot_slam/multi_robot_slam/msg/pose_graph_node.hpp
+[0.360s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/include/multi_robot_slam/multi_robot_slam/msg/pose_graph_edge.hpp
+[0.360s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/include/multi_robot_slam/multi_robot_slam/msg/map_merge_status.hpp
+[0.360s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/include/multi_robot_slam/multi_robot_slam/msg/rosidl_generator_cpp__visibility_control.hpp
+[0.360s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/include/multi_robot_slam/multi_robot_slam/msg/detail
+[0.360s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/include/multi_robot_slam/multi_robot_slam/msg/detail/map_merge_status__struct.hpp
+[0.360s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/include/multi_robot_slam/multi_robot_slam/msg/detail/pose_graph__builder.hpp
+[0.360s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/include/multi_robot_slam/multi_robot_slam/msg/detail/pose_graph_edge__type_support.hpp
+[0.360s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/include/multi_robot_slam/multi_robot_slam/msg/detail/pose_graph_node__traits.hpp
+[0.360s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/include/multi_robot_slam/multi_robot_slam/msg/detail/pose_graph_edge__builder.hpp
+[0.360s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/include/multi_robot_slam/multi_robot_slam/msg/detail/map_merge_status__traits.hpp
+[0.360s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/include/multi_robot_slam/multi_robot_slam/msg/detail/pose_graph_node__struct.hpp
+[0.360s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/include/multi_robot_slam/multi_robot_slam/msg/detail/pose_graph__type_support.hpp
+[0.361s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/include/multi_robot_slam/multi_robot_slam/msg/detail/pose_graph_node__builder.hpp
+[0.361s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/include/multi_robot_slam/multi_robot_slam/msg/detail/map_merge_status__type_support.hpp
+[0.361s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/include/multi_robot_slam/multi_robot_slam/msg/detail/map_merge_status__builder.hpp
+[0.361s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/include/multi_robot_slam/multi_robot_slam/msg/detail/pose_graph__struct.hpp
+[0.361s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/include/multi_robot_slam/multi_robot_slam/msg/detail/pose_graph_node__type_support.hpp
+[0.361s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/include/multi_robot_slam/multi_robot_slam/msg/detail/pose_graph__traits.hpp
+[0.361s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/include/multi_robot_slam/multi_robot_slam/msg/detail/pose_graph_edge__traits.hpp
+[0.361s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/include/multi_robot_slam/multi_robot_slam/msg/detail/pose_graph_edge__struct.hpp
+[0.361s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/include/multi_robot_slam/multi_robot_slam/msg/pose_graph.hpp
+[0.361s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/include/multi_robot_slam/multi_robot_slam
+[0.361s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/include/multi_robot_slam/multi_robot_slam/msg
+[0.361s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/include/multi_robot_slam/multi_robot_slam/msg/detail
+[0.361s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/include/multi_robot_slam/multi_robot_slam/msg/detail/pose_graph__rosidl_typesupport_fastrtps_cpp.hpp
+[0.361s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/include/multi_robot_slam/multi_robot_slam/msg/detail/pose_graph_edge__rosidl_typesupport_fastrtps_cpp.hpp
+[0.362s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/include/multi_robot_slam/multi_robot_slam/msg/detail/dds_fastrtps
+[0.362s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/include/multi_robot_slam/multi_robot_slam/msg/detail/pose_graph_node__rosidl_typesupport_fastrtps_cpp.hpp
+[0.362s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/include/multi_robot_slam/multi_robot_slam/msg/detail/map_merge_status__rosidl_typesupport_fastrtps_cpp.hpp
+[0.362s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/include/multi_robot_slam/multi_robot_slam/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.362s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/lib/libmulti_robot_slam__rosidl_typesupport_fastrtps_cpp.so
+[0.362s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/include/multi_robot_slam/multi_robot_slam
+[0.362s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/include/multi_robot_slam/multi_robot_slam/msg
+[0.362s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/include/multi_robot_slam/multi_robot_slam/msg/detail
+[0.362s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/include/multi_robot_slam/multi_robot_slam/msg/detail/pose_graph_edge__rosidl_typesupport_introspection_cpp.hpp
+[0.362s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/include/multi_robot_slam/multi_robot_slam/msg/detail/pose_graph__type_support.cpp
+[0.362s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/include/multi_robot_slam/multi_robot_slam/msg/detail/map_merge_status__rosidl_typesupport_introspection_cpp.hpp
+[0.362s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/include/multi_robot_slam/multi_robot_slam/msg/detail/pose_graph__rosidl_typesupport_introspection_cpp.hpp
+[0.362s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/include/multi_robot_slam/multi_robot_slam/msg/detail/pose_graph_edge__type_support.cpp
+[0.362s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/include/multi_robot_slam/multi_robot_slam/msg/detail/map_merge_status__type_support.cpp
+[0.362s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/include/multi_robot_slam/multi_robot_slam/msg/detail/pose_graph_node__type_support.cpp
+[0.362s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/include/multi_robot_slam/multi_robot_slam/msg/detail/pose_graph_node__rosidl_typesupport_introspection_cpp.hpp
+[0.362s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/lib/libmulti_robot_slam__rosidl_typesupport_introspection_cpp.so
+[0.362s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/lib/libmulti_robot_slam__rosidl_typesupport_cpp.so
+[0.362s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/share/multi_robot_slam/environment/pythonpath.sh
+[0.362s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/share/multi_robot_slam/environment/pythonpath.dsv
+[0.362s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/local/lib/python3.10/dist-packages/multi_robot_slam-0.0.1-py3.10.egg-info
+[0.362s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/local/lib/python3.10/dist-packages/multi_robot_slam-0.0.1-py3.10.egg-info/dependency_links.txt
+[0.362s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/local/lib/python3.10/dist-packages/multi_robot_slam-0.0.1-py3.10.egg-info/PKG-INFO
+[0.363s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/local/lib/python3.10/dist-packages/multi_robot_slam-0.0.1-py3.10.egg-info/SOURCES.txt
+[0.363s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/local/lib/python3.10/dist-packages/multi_robot_slam-0.0.1-py3.10.egg-info/top_level.txt
+[0.363s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/local/lib/python3.10/dist-packages/multi_robot_slam
+[0.363s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/local/lib/python3.10/dist-packages/multi_robot_slam/libmulti_robot_slam__rosidl_generator_py.so
+[0.363s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/local/lib/python3.10/dist-packages/multi_robot_slam/_multi_robot_slam_s.ep.rosidl_typesupport_introspection_c.c
+[0.363s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/local/lib/python3.10/dist-packages/multi_robot_slam/_multi_robot_slam_s.ep.rosidl_typesupport_c.c
+[0.363s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/local/lib/python3.10/dist-packages/multi_robot_slam/multi_robot_slam_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.363s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/local/lib/python3.10/dist-packages/multi_robot_slam/msg
+[0.363s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/local/lib/python3.10/dist-packages/multi_robot_slam/msg/_pose_graph_edge_s.c
+[0.363s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/local/lib/python3.10/dist-packages/multi_robot_slam/msg/_pose_graph_edge.py
+[0.363s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/local/lib/python3.10/dist-packages/multi_robot_slam/msg/_pose_graph.py
+[0.363s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/local/lib/python3.10/dist-packages/multi_robot_slam/msg/_map_merge_status_s.c
+[0.363s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/local/lib/python3.10/dist-packages/multi_robot_slam/msg/_map_merge_status.py
+[0.363s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/local/lib/python3.10/dist-packages/multi_robot_slam/msg/_pose_graph_node_s.c
+[0.363s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/local/lib/python3.10/dist-packages/multi_robot_slam/msg/_pose_graph_s.c
+[0.363s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/local/lib/python3.10/dist-packages/multi_robot_slam/msg/_pose_graph_node.py
+[0.363s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/local/lib/python3.10/dist-packages/multi_robot_slam/msg/__init__.py
+[0.363s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/local/lib/python3.10/dist-packages/multi_robot_slam/_multi_robot_slam_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.363s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/local/lib/python3.10/dist-packages/multi_robot_slam/multi_robot_slam_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.363s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/local/lib/python3.10/dist-packages/multi_robot_slam/multi_robot_slam_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.363s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/local/lib/python3.10/dist-packages/multi_robot_slam/__init__.py
+[0.385s] Listing '/home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/local/lib/python3.10/dist-packages/multi_robot_slam'...
+[0.385s] Listing '/home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/local/lib/python3.10/dist-packages/multi_robot_slam/msg'...
+[0.388s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/local/lib/python3.10/dist-packages/multi_robot_slam/multi_robot_slam_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.388s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/local/lib/python3.10/dist-packages/multi_robot_slam/multi_robot_slam_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.389s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/local/lib/python3.10/dist-packages/multi_robot_slam/multi_robot_slam_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.389s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/lib/libmulti_robot_slam__rosidl_generator_py.so
+[0.389s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/share/multi_robot_slam/msg/PoseGraphNode.idl
+[0.389s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/share/multi_robot_slam/msg/PoseGraphEdge.idl
+[0.389s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/share/multi_robot_slam/msg/PoseGraph.idl
+[0.389s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/share/multi_robot_slam/msg/MapMergeStatus.idl
+[0.390s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/share/multi_robot_slam/msg/PoseGraphNode.msg
+[0.390s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/share/multi_robot_slam/msg/PoseGraphEdge.msg
+[0.390s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/share/multi_robot_slam/msg/PoseGraph.msg
+[0.390s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/share/multi_robot_slam/msg/MapMergeStatus.msg
+[0.390s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/lib/multi_robot_slam/pose_graph_optimizer.py
+[0.390s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/lib/multi_robot_slam/map_merger.py
+[0.390s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/lib/multi_robot_slam/tf_publisher.py
+[0.391s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/lib/multi_robot_slam/slam_coordinator.py
+[0.391s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/share/multi_robot_slam/launch
+[0.391s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/share/multi_robot_slam/launch/multi_robot_slam.launch.py
+[0.391s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/share/multi_robot_slam/config
+[0.391s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/share/multi_robot_slam/config/slam_params.yaml
+[0.392s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/share/multi_robot_slam/config/.gitkeep
+[0.392s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/share/ament_index/resource_index/package_run_dependencies/multi_robot_slam
+[0.392s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/share/ament_index/resource_index/parent_prefix_path/multi_robot_slam
+[0.392s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/share/multi_robot_slam/environment/ament_prefix_path.sh
+[0.392s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/share/multi_robot_slam/environment/ament_prefix_path.dsv
+[0.392s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/share/multi_robot_slam/environment/path.sh
+[0.393s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/share/multi_robot_slam/environment/path.dsv
+[0.393s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/share/multi_robot_slam/local_setup.bash
+[0.393s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/share/multi_robot_slam/local_setup.sh
+[0.393s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/share/multi_robot_slam/local_setup.zsh
+[0.393s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/share/multi_robot_slam/local_setup.dsv
+[0.393s] -- Installing: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/share/multi_robot_slam/package.dsv
+[0.394s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/share/ament_index/resource_index/packages/multi_robot_slam
+[0.394s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/share/multi_robot_slam/cmake/export_multi_robot_slam__rosidl_generator_cExport.cmake
+[0.394s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/share/multi_robot_slam/cmake/export_multi_robot_slam__rosidl_generator_cExport-noconfig.cmake
+[0.394s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/share/multi_robot_slam/cmake/export_multi_robot_slam__rosidl_typesupport_fastrtps_cExport.cmake
+[0.394s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/share/multi_robot_slam/cmake/export_multi_robot_slam__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.394s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/share/multi_robot_slam/cmake/multi_robot_slam__rosidl_typesupport_introspection_cExport.cmake
+[0.394s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/share/multi_robot_slam/cmake/multi_robot_slam__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.394s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/share/multi_robot_slam/cmake/multi_robot_slam__rosidl_typesupport_cExport.cmake
+[0.395s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/share/multi_robot_slam/cmake/multi_robot_slam__rosidl_typesupport_cExport-noconfig.cmake
+[0.395s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/share/multi_robot_slam/cmake/export_multi_robot_slam__rosidl_generator_cppExport.cmake
+[0.395s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/share/multi_robot_slam/cmake/export_multi_robot_slam__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.395s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/share/multi_robot_slam/cmake/export_multi_robot_slam__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.395s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/share/multi_robot_slam/cmake/multi_robot_slam__rosidl_typesupport_introspection_cppExport.cmake
+[0.395s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/share/multi_robot_slam/cmake/multi_robot_slam__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.395s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/share/multi_robot_slam/cmake/multi_robot_slam__rosidl_typesupport_cppExport.cmake
+[0.395s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/share/multi_robot_slam/cmake/multi_robot_slam__rosidl_typesupport_cppExport-noconfig.cmake
+[0.395s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/share/multi_robot_slam/cmake/export_multi_robot_slam__rosidl_generator_pyExport.cmake
+[0.395s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/share/multi_robot_slam/cmake/export_multi_robot_slam__rosidl_generator_pyExport-noconfig.cmake
+[0.396s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/share/multi_robot_slam/cmake/rosidl_cmake-extras.cmake
+[0.397s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/share/multi_robot_slam/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.397s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/share/multi_robot_slam/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.397s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/share/multi_robot_slam/cmake/ament_cmake_export_libraries-extras.cmake
+[0.397s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/share/multi_robot_slam/cmake/ament_cmake_export_targets-extras.cmake
+[0.397s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/share/multi_robot_slam/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.397s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/share/multi_robot_slam/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.397s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/share/multi_robot_slam/cmake/multi_robot_slamConfig.cmake
+[0.397s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/share/multi_robot_slam/cmake/multi_robot_slamConfig-version.cmake
+[0.397s] -- Up-to-date: /home/nangao/multi_explore/multi-robot-slam/install/multi_robot_slam/share/multi_robot_slam/package.xml
+[0.398s] Invoked command in '/home/nangao/multi_explore/multi-robot-slam/build/multi_robot_slam' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/nangao/multi_explore/multi-robot-slam/build/multi_robot_slam

@@ -51,7 +51,7 @@ class TaskAllocator(Node):
         self.declare_parameter('allocation_rate', 0.5)
         self.declare_parameter('min_inter_robot_dist', 1.5)
         self.declare_parameter('goal_reached_threshold', 0.5)
-        self.declare_parameter('use_sim_time', True)
+        # 不再声明 use_sim_time
         
         self.robot_names = self.get_parameter('robot_names').value
         self.allocation_rate = self.get_parameter('allocation_rate').value
@@ -205,7 +205,7 @@ class TaskAllocator(Node):
         # Publish goal
         goal_msg = PoseStamped()
         goal_msg.header.stamp = self.get_clock().now().to_msg()
-        goal_msg.header.frame_id = 'map'
+        goal_msg.header.frame_id = f'{robot_name}/map'
         goal_msg.pose.position.x = frontier.x
         goal_msg.pose.position.y = frontier.y
         goal_msg.pose.orientation.w = 1.0

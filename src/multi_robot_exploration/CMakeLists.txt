@@ -12,6 +12,7 @@ install(PROGRAMS
   src/task_allocator.py
   src/collision_avoider.py
   src/exploration_coordinator.py
+  src/simple_explorer.py
   DESTINATION lib/${PROJECT_NAME}
 )
 
